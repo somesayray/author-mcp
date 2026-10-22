@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": "doc:TECH_README.md",
+      "path": "TECH_README.md",
+      "title": "TECH_README"
+    },
+    {
+      "id": "doc:README.md",
+      "path": "README.md",
+      "title": "README"
+    },
+    {
+      "id": "doc:AGENTS.md",
+      "path": "AGENTS.md",
+      "title": "AGENTS"
+    },
+    {
+      "id": "doc:contracts/canonical.md",
+      "path": "contracts/canonical.md",
+      "title": "canonical"
+    },
+    {
+      "id": "doc:contracts/rules.md",
+      "path": "contracts/rules.md",
+      "title": "rules"
+    },
+    {
+      "id": "doc:contracts/AGENTS.md",
+      "path": "contracts/AGENTS.md",
+      "title": "AGENTS"
+    },
+    {
+      "id": "doc:tests/canonical.md",
+      "path": "tests/canonical.md",
+      "title": "canonical"
+    },
+    {
+      "id": "doc:tests/rules.md",
+      "path": "tests/rules.md",
+      "title": "rules"
+    },
+    {
+      "id": "doc:tests/AGENTS.md",
+      "path": "tests/AGENTS.md",
+      "title": "AGENTS"
+    },
+    {
+      "id": "doc:docs/canonical.md",
+      "path": "docs/canonical.md",
+      "title": "canonical"
+    },
+    {
+      "id": "doc:docs/rules.md",
+      "path": "docs/rules.md",
+      "title": "rules"
+    },
+    {
+      "id": "doc:docs/AGENTS.md",
+      "path": "docs/AGENTS.md",
+      "title": "AGENTS"
+    },
+    {
+      "id": "doc:docs/governance/playbooks/playbook-coding.md",
+      "path": "docs/governance/playbooks/playbook-coding.md",
+      "title": "playbook-coding"
+    },
+    {
+      "id": "doc:docs/governance/playbooks/playbook-troubleshooting.md",
+      "path": "docs/governance/playbooks/playbook-troubleshooting.md",
+      "title": "playbook-troubleshooting"
+    },
+    {
+      "id": "doc:cfg/canonical.md",
+      "path": "cfg/canonical.md",
+      "title": "canonical"
+    },
+    {
+      "id": "doc:cfg/rules.md",
+      "path": "cfg/rules.md",
+      "title": "rules"
+    },
+    {
+      "id": "doc:cfg/AGENTS.md",
+      "path": "cfg/AGENTS.md",
+      "title": "AGENTS"
+    },
+    {
+      "id": "doc:.hath0r/spool/init-backup/README.md",
+      "path": ".hath0r/spool/init-backup/README.md",
+      "title": "README"
+    },
+    {
+      "id": "doc:src/canonical.md",
+      "path": "src/canonical.md",
+      "title": "canonical"
+    },
+    {
+      "id": "doc:src/rules.md",
+      "path": "src/rules.md",
+      "title": "rules"
+    },
+    {
+      "id": "doc:src/AGENTS.md",
+      "path": "src/AGENTS.md",
+      "title": "AGENTS"
+    }
+  ]
+}

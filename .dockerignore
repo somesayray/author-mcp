@@ -1,0 +1,11 @@
+.git
+.gitignore
+.hath0r
+.pytest_cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+data/indices

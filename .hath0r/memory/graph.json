@@ -1,0 +1,146 @@
+{
+  "nodes": [
+    {
+      "id": "rule:cr-cli-entry-001",
+      "type": "rule",
+      "label": "Start with CLI Rule",
+      "content": "Always start with hath0r."
+    },
+    {
+      "id": "concept:tri-graph",
+      "type": "concept",
+      "label": "Tri-Graph Substrate",
+      "content": "KnowledgeGraph, ContextGraph, MemoryGraph."
+    },
+    {
+      "id": "rule:cr-bai-001",
+      "type": "rule",
+      "label": "Promotion Path Policy",
+      "content": "Promotion order: local -> development -> testing -> staging -> master.",
+      "importance": 1.0,
+      "tags": [
+        "rule",
+        "governance",
+        "ci"
+      ],
+      "is_current": true,
+      "created_at": "2026-10-21T20:06:15.401269+00:00",
+      "updated_at": "2026-10-21T20:06:15.401269+00:00"
+    },
+    {
+      "id": "rule:cr-memory-compound-001",
+      "type": "rule",
+      "label": "Mandatory MemoryGraph Compounding Rule",
+      "content": "Every project repo must maintain .hath0r/memory/graph.json and every task must compound knowledge prior to announcing complete.",
+      "importance": 1.0,
+      "tags": [
+        "rule",
+        "governance",
+        "memorygraph",
+        "cr-memory-compound-001"
+      ],
+      "is_current": true,
+      "created_at": "2026-10-21T20:06:15.401269+00:00",
+      "updated_at": "2026-10-21T20:06:15.401269+00:00"
+    },
+    {
+      "id": "episode:share-20261021T200615Z",
+      "type": "episode",
+      "label": "Knowledge Share (share-20261021T200615Z)",
+      "content": "Universal repository onboarding: initialized HATHOR framework and migrated AgentGraph cognitive substrate (knowledge, rules, agents, memory).",
+      "importance": 0.8,
+      "tags": [
+        "knowledge-share",
+        "share-20261021t200615z",
+        "mcp",
+        "episode",
+        "compounded"
+      ],
+      "valid_from": "2026-10-21T20:06:15.401130+00:00",
+      "valid_to": null,
+      "is_current": true,
+      "created_at": "2026-10-21T20:06:15.401130+00:00",
+      "updated_at": "2026-10-21T20:06:15.401130+00:00",
+      "metadata": {}
+    },
+    {
+      "id": "session:sess-20261021-200615-6de058",
+      "type": "session",
+      "label": "Micro Session sess-20261021-200615-6de058",
+      "content": "Micro Session sess-20261021-200615-6de058 [active] | Focus: Initialized local memory space for mcp | Reads: 1, Writes: 2 | Entries: Started session focus: Initialized local memory space for mcp; Compounded episode:share-20261021T200615Z: Knowledge Share (share-20261021T200615Z)",
+      "importance": 0.75,
+      "tags": [
+        "session",
+        "micro-session",
+        "active"
+      ],
+      "valid_from": "2026-10-21T20:06:15.366950+00:00",
+      "valid_to": null,
+      "is_current": true,
+      "created_at": "2026-10-21T20:06:15.366950+00:00",
+      "updated_at": "2026-10-21T20:06:15.410990+00:00",
+      "metadata": {
+        "session_id": "sess-20261021-200615-6de058",
+        "prior_session_id": null,
+        "parent_session_id": null,
+        "read_count": 1,
+        "write_count": 2,
+        "status": "active",
+        "byte_size": 2037
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "rule:cr-cli-entry-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "weight": 1.0,
+      "is_current": true
+    },
+    {
+      "source": "rule:cr-memory-compound-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "weight": 1.0,
+      "is_current": true
+    },
+    {
+      "source": "episode:share-20261021T200615Z",
+      "target": "concept:tri-graph",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-10-21T20:06:15.401130+00:00",
+      "is_current": true
+    },
+    {
+      "source": "episode:share-20261021T200615Z",
+      "target": "rule:cr-memory-compound-001",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-10-21T20:06:15.401130+00:00",
+      "is_current": true
+    },
+    {
+      "source": "session:sess-20261021-200615-6de058",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "weight": 0.8,
+      "valid_from": "2026-10-21T20:06:15.414179+00:00",
+      "is_current": true
+    },
+    {
+      "source": "episode:share-20261021T200615Z",
+      "target": "session:sess-20261021-200615-6de058",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-10-21T20:06:15.414179+00:00",
+      "is_current": true
+    }
+  ],
+  "schema_version": "1.0.0",
+  "graph_id": "canonical-memory-space",
+  "revision": 4,
+  "content_hash": "sha256:0edbb662c84b21e0607f7f5e123bc01b5c94bc3c832570a2efb129e5575be890",
+  "updated_at": "2026-10-21T20:06:15.415042+00:00"
+}

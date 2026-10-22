@@ -1,0 +1,51 @@
+{
+  "schema_version": "hath0r.memory_hashes/1",
+  "repo_name": "mcp",
+  "revision": 6,
+  "updated_at": "2026-10-21T20:06:15.419276+00:00",
+  "files": {
+    ".hath0r/memory/architecture.md": {
+      "sha256": "sha256:12a7b1d97cca86bbc712fb001552c3026ac9c0b9dee34efc786ffabcf1b2f08b",
+      "content_hash": "sha256:12a7b1d97cca86bbc712fb001552c3026ac9c0b9dee34efc786ffabcf1b2f08b",
+      "revision": 1,
+      "byte_size": 267,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    },
+    ".hath0r/memory/core_rules.md": {
+      "sha256": "sha256:92b131e2916ffd2b5b9896fc32c5723640931e60db6a7a7d741a500f50f52da4",
+      "content_hash": "sha256:92b131e2916ffd2b5b9896fc32c5723640931e60db6a7a7d741a500f50f52da4",
+      "revision": 1,
+      "byte_size": 529,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    },
+    ".hath0r/memory/graph.json": {
+      "sha256": "sha256:2fa1eac999f087f2e984f207a710f086250f62cf99c86b88b7697a2c946b2660",
+      "content_hash": "sha256:0edbb662c84b21e0607f7f5e123bc01b5c94bc3c832570a2efb129e5575be890",
+      "revision": 4,
+      "byte_size": 4650,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    },
+    ".hath0r/memory/sessions/current.json": {
+      "sha256": "sha256:8c7045cd6bf14bf9dbed816850e3740098af51955578cf2f634068903d5d9b19",
+      "content_hash": "sha256:b8908d64a6a0ee97da37a258e4e69964342defafd3d93ef525320a9d7a6ea2dc",
+      "revision": 2,
+      "byte_size": 2037,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    },
+    ".hath0r/memory/sessions/latest.json": {
+      "sha256": "sha256:8c7045cd6bf14bf9dbed816850e3740098af51955578cf2f634068903d5d9b19",
+      "content_hash": "sha256:b8908d64a6a0ee97da37a258e4e69964342defafd3d93ef525320a9d7a6ea2dc",
+      "revision": 2,
+      "byte_size": 2037,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    },
+    ".hath0r/memory/sessions/sess-20261021-200615-6de058.json": {
+      "sha256": "sha256:8c7045cd6bf14bf9dbed816850e3740098af51955578cf2f634068903d5d9b19",
+      "content_hash": "sha256:b8908d64a6a0ee97da37a258e4e69964342defafd3d93ef525320a9d7a6ea2dc",
+      "revision": 2,
+      "byte_size": 2037,
+      "updated_at": "2026-10-21T20:06:15.419276+00:00"
+    }
+  },
+  "source_files": {}
+}

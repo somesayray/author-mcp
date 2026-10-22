@@ -1,0 +1,82 @@
+# Author Suite: Root MCP Service & Air Traffic Control (Compose Project: author)
+name: author
+
+services:
+  author-sessions:
+    image: redis:7-alpine
+    container_name: Author-Sessions
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - author_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+      start_period: 5s
+    networks:
+      author-net:
+        aliases:
+          - Author-Sessions
+          - author-sessions
+          - redis
+    labels:
+      com.author.org: bayly-ai
+      com.author.project: author
+      com.author.component: sessions
+      com.author.container: Author-Sessions
+      com.author.role: shared-state
+
+  author-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: author/mcp:local
+    container_name: Author-MCP
+    restart: unless-stopped
+    depends_on:
+      author-sessions:
+        condition: service_healthy
+    ports:
+      - "${AUTHOR_MCP_HOST_PORT:-18083}:8083"
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-local}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - AUTHOR_MCP_HOST=0.0.0.0
+      - AUTHOR_MCP_PORT=8083
+      - REDIS_URL=redis://Author-Sessions:6379/0
+      - BOOKS_DIR=/app/books
+      - AUTHOR_DATA_DIR=/app/data
+      - AUTHOR_STORAGE_DIR=/app/data/indices
+    volumes:
+      - author_mcp_data:/app/data
+      - /Users/raybayly/Development/Projects/Author/Books:/app/books:ro
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8083/health').read()"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    networks:
+      author-net:
+        aliases:
+          - Author-MCP
+          - author-mcp
+          - mcp
+    labels:
+      com.author.org: bayly-ai
+      com.author.project: author
+      com.author.component: mcp
+      com.author.container: Author-MCP
+      com.author.role: root-mcp-atc
+
+volumes:
+  author_mcp_data:
+    name: author_mcp_data
+  author_redis_data:
+    name: author_redis_data
+
+networks:
+  author-net:
+    name: author-net

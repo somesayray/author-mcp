@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "engine": "author-mcp",
+  "default_server": "author-mcp",
+  "servers": [
+    {
+      "id": "author-mcp",
+      "name": "AuthorMCP",
+      "scope": "project",
+      "group": "author",
+      "priority": 1,
+      "transport": "streamable-http",
+      "base_url": "http://127.0.0.1:18083",
+      "mcp_endpoint": "/mcp",
+      "health_endpoint": "/health",
+      "description": "Author MCP root knowledge server and suite Air Traffic Control (ATC)",
+      "enabled": true
+    }
+  ]
+}

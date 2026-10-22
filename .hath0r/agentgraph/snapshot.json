@@ -1,0 +1,540 @@
+{
+  "schema_version": "hath0r.agentgraph/1",
+  "graph_id": "agentgraph-mcp",
+  "timestamp": "2026-10-21T20:06:15.433351+00:00",
+  "nodes": [
+    {
+      "id": "doc:agents-root",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (root)",
+      "content": "# AGENTS.md — mcp\n\n> Role: **mcp** · Member of Enterprise Agentic Platform\n\n## CR-CLI-ENTRY-001: Start with the CLI (CRITICAL — Org-Wide)\n\n1. **Start with the CLI (CRITICAL ENTRY GATE)**: When receiving ANY request or starting any task, agents **MUST ALWAYS START WITH THE OPERATOR CLI (`hath0r`)** rather than inventing ad-hoc scripts.\n2. **Missing Capability Offer**: If the required connection, MCP, workflow, bot, or factory does not exist in `hath0r`, offer to register the missing capability.\n3. **Docs before code**: Require procedure/playbook/runbook before scaffolding implementation.\n\n## Promotion Path (CR-BAI-001)\n\n```text\nlocal → development → testing → staging → master (Production)\n```\n\n## Branch Governance (cr-branch-gov-001)\n\n- Issue first: create an issue before cutting a branch.\n- Naming: `feature|bugfix|enhancement|chore/<issue-number>-slug`\n- Base PR target: `development`\n\n## AgentGraph Substrate\n\nThis repository is governed by the Hath0r AgentGraph substrate. Dynamic rule ",
+      "properties": {
+        "path": "AGENTS.md",
+        "subsystem": "root"
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:agents-contracts",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (contracts)",
+      "content": "# Contracts Subsystem - AGENTS Context\n\n> This file contains hyper-localized context for Contracts Subsystem.\n\n## Roles and Focus\n- Localized focus rules go here.\n",
+      "properties": {
+        "path": "contracts/AGENTS.md",
+        "subsystem": "contracts"
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:agents-tests",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (tests)",
+      "content": "# Tests Subsystem - AGENTS Context\n\n> This file contains hyper-localized context for Tests Subsystem.\n\n## Roles and Focus\n- Localized focus rules go here.\n",
+      "properties": {
+        "path": "tests/AGENTS.md",
+        "subsystem": "tests"
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:agents-docs",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (docs)",
+      "content": "# Docs Subsystem - AGENTS Context\n\n> This file contains hyper-localized context for Docs Subsystem.\n\n## Roles and Focus\n- Localized focus rules go here.\n",
+      "properties": {
+        "path": "docs/AGENTS.md",
+        "subsystem": "docs"
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:agents-cfg",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (cfg)",
+      "content": "# Cfg Subsystem - AGENTS Context\n\n> This file contains hyper-localized context for Cfg Subsystem.\n\n## Roles and Focus\n- Localized focus rules go here.\n",
+      "properties": {
+        "path": "cfg/AGENTS.md",
+        "subsystem": "cfg"
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:agents-src",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "AGENTS.md (src)",
+      "content": "# Src Subsystem - AGENTS Context\n\n> This file contains hyper-localized context for Src Subsystem.\n\n## Roles and Focus\n- Localized focus rules go here.\n",
+      "properties": {
+        "path": "src/AGENTS.md",
+        "subsystem": "src"
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:rules",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule rules",
+      "content": "# Contracts Subsystem - Local Rules\n\n> Specific rules and constraints for the Contracts Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "contracts/rules.md",
+        "priority": 3,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:rules",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule rules",
+      "content": "# Tests Subsystem - Local Rules\n\n> Specific rules and constraints for the Tests Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "tests/rules.md",
+        "priority": 3,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:rules",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule rules",
+      "content": "# Docs Subsystem - Local Rules\n\n> Specific rules and constraints for the Docs Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "docs/rules.md",
+        "priority": 3,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:rules",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule rules",
+      "content": "# Cfg Subsystem - Local Rules\n\n> Specific rules and constraints for the Cfg Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "cfg/rules.md",
+        "priority": 3,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:rules",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule rules",
+      "content": "# Src Subsystem - Local Rules\n\n> Specific rules and constraints for the Src Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "src/rules.md",
+        "priority": 3,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:cr-bai-001",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule CR-BAI-001",
+      "content": "Governance policy rule CR-BAI-001 referenced in AGENTS.md",
+      "properties": {
+        "rule_code": "CR-BAI-001",
+        "priority": 4,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:cr-cli-entry-001",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule CR-CLI-ENTRY-001",
+      "content": "Governance policy rule CR-CLI-ENTRY-001 referenced in AGENTS.md",
+      "properties": {
+        "rule_code": "CR-CLI-ENTRY-001",
+        "priority": 4,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "rule:cr-branch-gov-001",
+      "plane": "rules",
+      "type": "rule_policy",
+      "label": "Rule CR-BRANCH-GOV-001",
+      "content": "Governance policy rule CR-BRANCH-GOV-001 referenced in AGENTS.md",
+      "properties": {
+        "rule_code": "CR-BRANCH-GOV-001",
+        "priority": 4,
+        "restricted_actions": []
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:docs__canonical_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Canonical",
+      "content": "# Docs Subsystem - Canonical Reference\n\n> Canonical sources of truth for Docs Subsystem.\n\n## Architecture\n- \n",
+      "properties": {
+        "path": "docs/canonical.md",
+        "category": "docs",
+        "size_bytes": 109
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:docs__rules_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Rules",
+      "content": "# Docs Subsystem - Local Rules\n\n> Specific rules and constraints for the Docs Subsystem module.\n\n## Constraints\n- \n",
+      "properties": {
+        "path": "docs/rules.md",
+        "category": "docs",
+        "size_bytes": 115
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:docs__governance__playbooks__playbook-coding_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Playbook Coding",
+      "content": "# Coding Playbook\n\n## 1. Safe Types\nEnsure variables are managed and checked for explicit state.\n\n## 2. Architecture & Design\nBuild to SOA specifications with dependency injection.\n\n## 3. Asynchronous Operations\nAlways make network and I/O connections asynchronous.\n",
+      "properties": {
+        "path": "docs/governance/playbooks/playbook-coding.md",
+        "category": "playbooks",
+        "size_bytes": 266
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:docs__governance__playbooks__playbook-troubleshooting_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Playbook Troubleshooting",
+      "content": "# Troubleshooting Playbook\n\n## 1. Reproducing the Error First\nEstablish a minimal reproducible example (MRE).\n\n## 2. Separate Concerns\nIsolate API, EDGE, DB, and UI layers independently.\n\n## 3. Validating the Fix\nFollow the promotion path (development -> testing -> staging -> master).\n",
+      "properties": {
+        "path": "docs/governance/playbooks/playbook-troubleshooting.md",
+        "category": "playbooks",
+        "size_bytes": 286
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:_hath0r__knowledgebase__lessons-learned__share-20261021T200615Z_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Share 20261021T200615Z",
+      "content": "# Knowledge share share-20261021T200615Z\n\n- **Generated:** 2026-10-21T20:06:15.400329+00:00\n- **Repo:** local\n- **PR:** n/a\n\n## Summary\nUniversal repository onboarding: initialized HATHOR framework and migrated AgentGraph cognitive substrate (knowledge, rules, agents, memory).\n",
+      "properties": {
+        "path": ".hath0r/knowledgebase/lessons-learned/share-20261021T200615Z.md",
+        "category": "lessons-learned",
+        "size_bytes": 278
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:README_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Readme",
+      "content": "# mcp\n\n**Enterprise Agentic Application & Microservice**\n\n> Technical Reference: See [TECH_README.md](TECH_README.md) for architecture, subsystem maps, and specifications.\n\n---\n\n## 🌟 Sales & Feature Overview\n\nmcp is built on the HATHOR agentic framework, providing:\n\n- 🛡️ **Zero-Trust Governance & Execution**: Hardened boundaries against unauthorized file mutations.\n- 🧠 **Tri-Graph Substrate**: Integrated KnowledgeGraph, ContextGraph, and MemoryGraph for autonomous reasoning.\n- ⚡ **Autonomous Workflows**: Pre-configured bot workflows for CI/CD and hygiene.\n\n---\n\n## Quick Start\n\n```sh\nhath0r doctor\nhath0r factory list\n```\n\n---\n\n## License\n\nApache License 2.0\n",
+      "properties": {
+        "path": "README.md",
+        "category": "root",
+        "size_bytes": 678
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:TECH_README_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Tech Readme",
+      "content": "# Technical Architecture — mcp\n\nThis document provides the definitive technical specification and subsystem map.\n\n## Architecture Map\n\n```text\nAgent ──► hath0r CLI ──► Tri-Graph Substrate (KG / CG / MG)\n                      │\n                      ├─ Governance & Quality Gates (JEV Guard)\n                      └─ Automated Bot Factories\n```\n\n## Subsystem Registry\n\n- `.hath0r/`: Framework metadata root (configs, memory, cache)\n- `contracts/`: JSON schema contracts\n- `docs/governance/playbooks/`: Coding and troubleshooting playbooks\n",
+      "properties": {
+        "path": "TECH_README.md",
+        "category": "root",
+        "size_bytes": 562
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-cli-entry-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Start with CLI Rule",
+      "content": "Always start with hath0r.",
+      "properties": {
+        "source": "local_memory"
+      },
+      "is_current": true
+    },
+    {
+      "id": "concept:tri-graph",
+      "plane": "memory",
+      "type": "concept",
+      "label": "Tri-Graph Substrate",
+      "content": "KnowledgeGraph, ContextGraph, MemoryGraph.",
+      "properties": {
+        "source": "local_memory"
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-bai-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Promotion Path Policy",
+      "content": "Promotion order: local -> development -> testing -> staging -> master.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "rule",
+          "governance",
+          "ci"
+        ],
+        "importance": 1.0
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-memory-compound-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Mandatory MemoryGraph Compounding Rule",
+      "content": "Every project repo must maintain .hath0r/memory/graph.json and every task must compound knowledge prior to announcing complete.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "rule",
+          "governance",
+          "memorygraph",
+          "cr-memory-compound-001"
+        ],
+        "importance": 1.0
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:episode:share-20261021T200615Z",
+      "plane": "memory",
+      "type": "episode",
+      "label": "Knowledge Share (share-20261021T200615Z)",
+      "content": "Universal repository onboarding: initialized HATHOR framework and migrated AgentGraph cognitive substrate (knowledge, rules, agents, memory).",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "knowledge-share",
+          "share-20261021t200615z",
+          "mcp",
+          "episode",
+          "compounded"
+        ],
+        "importance": 0.8
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:session:sess-20261021-200615-6de058",
+      "plane": "memory",
+      "type": "session",
+      "label": "Micro Session sess-20261021-200615-6de058",
+      "content": "Micro Session sess-20261021-200615-6de058 [active] | Focus: Initialized local memory space for mcp | Reads: 1, Writes: 2 | Entries: Started session focus: Initialized local memory space for mcp; Compounded episode:share-20261021T200615Z: Knowledge Share (share-20261021T200615Z)",
+      "properties": {
+        "session_id": "sess-20261021-200615-6de058",
+        "prior_session_id": null,
+        "parent_session_id": null,
+        "read_count": 1,
+        "write_count": 2,
+        "status": "active",
+        "byte_size": 2037,
+        "source": "local_memory",
+        "tags": [
+          "session",
+          "micro-session",
+          "active"
+        ],
+        "importance": 0.75
+      },
+      "is_current": true
+    },
+    {
+      "id": "role:developer",
+      "plane": "rules",
+      "type": "agent_role",
+      "label": "Developer Agent",
+      "content": "Full access software engineer role permitted to run commands, edit files, and build.",
+      "properties": {
+        "role_name": "developer",
+        "permitted_tools": [
+          "read_file",
+          "write_file",
+          "run_command",
+          "search_code"
+        ],
+        "forbidden_tools": [
+          "direct_push_master"
+        ]
+      },
+      "is_current": true
+    },
+    {
+      "id": "role:reader",
+      "plane": "rules",
+      "type": "agent_role",
+      "label": "Read-Only Agent",
+      "content": "Read-only inspection role strictly prohibited from modifying code or executing commands.",
+      "properties": {
+        "role_name": "reader",
+        "permitted_tools": [
+          "read_file",
+          "search_code"
+        ],
+        "forbidden_tools": [
+          "run_command",
+          "write_file",
+          "git_push"
+        ]
+      },
+      "is_current": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "memory:rule:cr-cli-entry-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-memory-compound-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:share-20261021T200615Z",
+      "target": "concept:tri-graph",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:share-20261021T200615Z",
+      "target": "memory:rule:cr-memory-compound-001",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261021-200615-6de058",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:share-20261021T200615Z",
+      "target": "memory:session:sess-20261021-200615-6de058",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "rule:rules",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:rules",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:rules",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:rules",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:rules",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:cr-bai-001",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:cr-cli-entry-001",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "rule:cr-branch-gov-001",
+      "target": "role:developer",
+      "relation": "GOVERNS",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-cli-entry-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "concept:tri-graph",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-bai-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-memory-compound-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:share-20261021T200615Z",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261021-200615-6de058",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    }
+  ],
+  "metadata": {
+    "repo_root": "/Users/raybayly/Development/Projects/Author/mcp",
+    "synced_sources": 19
+  }
+}

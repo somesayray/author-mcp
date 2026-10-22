@@ -1,0 +1,12 @@
+{
+  "session_id": "init-session",
+  "state": "initialized",
+  "nodes": [
+    {
+      "id": "agent:root",
+      "type": "agent",
+      "label": "Onboarding Agent"
+    }
+  ],
+  "edges": []
+}
