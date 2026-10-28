@@ -53,3 +53,10 @@ This repository is governed by the Hath0r AgentGraph substrate. Dynamic rule ret
 - **Docs Subsystem**: `/Users/raybayly/Development/Projects/Author/mcp/docs/AGENTS.md`
 - **Tests Subsystem**: `/Users/raybayly/Development/Projects/Author/mcp/tests/AGENTS.md`
 - **Cfg Subsystem**: `/Users/raybayly/Development/Projects/Author/mcp/cfg/AGENTS.md`
+
+---
+
+## CR-SONAR-PREANNOUNCE-001 (SonarCloud Thresholds Before Announcing Complete — CANONICAL)
+- **Pre-Announcement SonarCloud Gate**: Before announcing any work as Complete, the agent MUST analyze the code and confirm it meets this repository's SonarCloud Quality Gate thresholds (coverage on new code, duplication, reliability, security, maintainability, and security hotspots reviewed).
+- **How to Verify**: Use `hath0r quality sonar` (project key from `sonar-project.properties`) together with local test and coverage runs. If the gate cannot be checked, state that plainly instead of announcing Complete.
+- **Not Complete Until Green**: A failing or unverified Quality Gate means the work is not Complete.
