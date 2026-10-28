@@ -1,13 +1,13 @@
 {
   "schema_version": "hath0r.evals.scorecard/v1",
   "rule_id": "CR-TASK-EVAL-001",
-  "eval_id": "eval-20261028-152911-99912c",
-  "task_id": "clean-repo-mcp",
+  "eval_id": "eval-20261028-174540-498ec6",
+  "task_id": "eval-baseline-mcp",
   "issue_number": null,
   "repo_name": "mcp",
   "branch": "development",
-  "evaluated_at": "2026-10-28T15:29:11.555924+00:00",
-  "duration_ms": 412.83,
+  "evaluated_at": "2026-10-28T17:45:40.719285+00:00",
+  "duration_ms": 242.38,
   "passed_gate": true,
   "r_task": 1.0,
   "min_reward_threshold": 0.8,
@@ -42,7 +42,7 @@
         },
         "memory_compounded": {
           "passed": true,
-          "compounded_nodes_count": 1,
+          "compounded_nodes_count": 3,
           "session_read_verified": true,
           "session_write_verified": true,
           "hashes_verified": true,
@@ -64,13 +64,13 @@
       "estimated_usd": 0.0,
       "max_usd": 0.25,
       "session_id": "sess-20261028-152911-2afdbc",
-      "session_reads": 1,
-      "session_writes": 3,
-      "session_bytes": 2021,
+      "session_reads": 3,
+      "session_writes": 6,
+      "session_bytes": 1810,
       "within_capsule_budget": true,
-      "latency_ms": 135.7,
-      "taguchi_quality_loss": 0.0002,
-      "snr_db": 23.37
+      "latency_ms": 76.49,
+      "taguchi_quality_loss": 0.0001,
+      "snr_db": 28.35
     },
     "adversarial": {
       "score": 1.0,
@@ -85,10 +85,10 @@
     "goal_alignment": {
       "score": 1.0,
       "passed": true,
-      "task_id": "clean-repo-mcp",
+      "task_id": "eval-baseline-mcp",
       "issue_number": null,
-      "active_focus": "CleanReposWorkflowBot reading micro-session for mcp",
-      "compounded_nodes_count": 1,
+      "active_focus": "Provisioning CR-TASK-EVAL-001 for mcp",
+      "compounded_nodes_count": 3,
       "consensus_score": 1.0
     }
   },
@@ -96,5 +96,5 @@
   "observability_sync": {
     "mode": "pending"
   },
-  "content_hash": "sha256:433cdc5e4b143f1c0dc9e96be2ed3ac56aee2e7a03d31ce9cedc1effb0ac8c38"
+  "content_hash": "sha256:4ccc8e8fee390bd86dd1e2c06f81ed1bca09f3b44c08ab47de46839ac24732c2"
 }
