@@ -36,3 +36,4 @@
 {"timestamp": "2026-10-23T13:45:45Z", "event_type": "agent_cli_step", "command": "mcp", "args": ["mcp", "list"], "agent_id": "hath0r-operator-agent", "user": "raybayly"}
 {"timestamp": "2026-10-23T13:52:51Z", "event_type": "agent_cli_step", "command": "mcp", "args": ["mcp", "list"], "agent_id": "hath0r-operator-agent", "user": "raybayly"}
 {"timestamp": "2026-10-23T13:52:54Z", "event_type": "agent_cli_step", "command": "mcp", "args": ["mcp", "call", "author-mcp", "search_author_knowledge", "--args", "{\"query\":\"Orions Child Orion Chronicles\",\"limit\":2}"], "agent_id": "hath0r-operator-agent", "user": "raybayly"}
+{"timestamp": "2026-10-28T10:33:48Z", "event_type": "agent_cli_step", "command": "release", "args": ["-o", "json", "release", "validate"], "agent_id": "hath0r-operator-agent", "user": "raybayly"}
