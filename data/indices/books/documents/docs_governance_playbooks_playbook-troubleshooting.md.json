@@ -1,0 +1,36 @@
+{
+  "id": "docs/governance/playbooks/playbook-troubleshooting.md",
+  "content": "# Troubleshooting Playbook\n\n## 1. Reproducing the Error First\nEstablish a minimal reproducible example (MRE).\n\n## 2. Separate Concerns\nIsolate API, EDGE, DB, and UI layers independently.\n\n## 3. Validating the Fix\nFollow the promotion path (development -> testing -> staging -> master).\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/docs/governance/playbooks/playbook-troubleshooting.md",
+    "relative_path": "docs/governance/playbooks/playbook-troubleshooting.md",
+    "title": "Troubleshooting Playbook",
+    "source_type": "file",
+    "category": "general",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 36,
+    "reading_time_minutes": 0.2,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "docs",
+      "general",
+      "governance",
+      "playbooks",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:06:22.262104",
+    "updated_at": "2026-10-21T16:06:22.262104",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

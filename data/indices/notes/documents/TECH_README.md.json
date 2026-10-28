@@ -1,0 +1,33 @@
+{
+  "id": "TECH_README.md",
+  "content": "# Books — Technical Specification & Governance\n\n## 1. Architectural Intent\n`Books` is a purely document-oriented repository within the `Author` suite. It strictly excludes website frontends, static site generators, and web runtimes.\n\n- **Frontend/Site**: None (`site_enabled: false`).\n- **Primary Data Type**: UTF-8 Markdown and Plain Text.\n- **Root MCP Server**: `author-mcp` (Priority 1).\n- **Control Plane**: Air Traffic Control (ATC) in `../mcp`.\n\n## 2. Hath0r Integration\n- **Framework**: HATHOR Agentic Architecture v1.0.\n- **Cognitive Substrate**: KnowledgeGraph, ContextGraph, MemoryGraph under `.hath0r/`.\n- **MCP Provider**: Local `author-mcp` on `http://127.0.0.1:18083/mcp`.\n\n## 3. Verification & Testing\n```sh\npytest tests/\nhath0r preflight\n```\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/TECH_README.md",
+    "relative_path": "TECH_README.md",
+    "title": "Books — Technical Specification & Governance",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 95,
+    "reading_time_minutes": 0.5,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "notes",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:08:07.545784",
+    "updated_at": "2026-10-21T16:08:07.545784",
+    "extra": {}
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

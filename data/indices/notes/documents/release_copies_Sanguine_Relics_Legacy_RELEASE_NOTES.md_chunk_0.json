@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Sanguine Relics/Legacy/RELEASE_NOTES.md#chunk_0",
+  "content": "# Release Notes: Legacy (Sanguine Relics — Book 1)\n\n## Publication Information\n- **Title**: *Legacy: A Sanguine Relics Novel (Lobera)*\n- **Series**: Sanguine Relics Series (Book 1)\n- **Author**: Raymond Bayly\n- **Total Word Count**: ~38,847 words\n- **Total Chapters**: 22 Chapters + Epilogue\n- **Format Deliverables**:\n  - `legacy-book-1.md` (Pristine master Markdown edition)\n  - `legacy-book-1.docx` (Production-ready Microsoft Word manuscript formatted in Georgia 11pt, 1.15 line spacing, 1-inch margins, and styled chapter page breaks)\n\n---\n\n## Editorial & Narrative Completion Summary\n\n### 1. The Heritage of King Ferdinand III & Lobera\n- Connects the historical prologue in 13th-century Castile/Austria with modern-day Maryland, Virginia, and the Scottish Highlands.\n- Establishes the sacred celestial-iron blade *Lobera* and the Jamestown training dagger keyed to the royal hemoglobin sequence of King Ferdinand III.\n- Fully realizes the author's foundational lore concept from `Werewolf novel.docx`: the discovery that Lycanthropy is not demonic or Satanic, but an ancient Pleistocene genetic defense adaptation that early humans evolved to survive prehistoric apex predators.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Sanguine Relics/Legacy/RELEASE_NOTES.md",
+    "relative_path": "release copies/Sanguine Relics/Legacy/RELEASE_NOTES.md",
+    "title": "Release Notes: Legacy (Sanguine Relics — Book 1)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 539,
+    "reading_time_minutes": 2.7,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "epilogue",
+      "legacy",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "sanguine_relics",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:44:14.220486",
+    "updated_at": "2026-10-22T05:44:14.220486",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "2. Character & Plot Arc Completion"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

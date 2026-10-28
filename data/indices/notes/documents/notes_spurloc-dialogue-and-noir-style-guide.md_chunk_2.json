@@ -1,0 +1,38 @@
+{
+  "id": "notes/spurloc-dialogue-and-noir-style-guide.md#chunk_2",
+  "content": "## 3. Scene Construction Rules\n\n1. **The Investigation Rule**: Every scene must yield a clue or a reversal. No passive talking-heads scenes—dialogue should occur while searching a ransacked apartment, escaping an ambush, or tailing a suspect through crowded synth-markets.\n2. **The Magic-Tech Rule**: Keep Spurloc's warlock abilities costly. Magic isn't effortless Harry Potter wand-waving; it draws from biological stamina and produces painful feedback in his cybernetic neural connections if overused.\n3. **The Pacing Escalation**:\n   - Chapter opening: Atmospheric observation and detective deduction.\n   - Middle: Confrontation, interrogation, or digital breach.\n   - Chapter ending: Sudden betrayal, forensic revelation, or tactical explosion.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/notes/spurloc-dialogue-and-noir-style-guide.md",
+    "relative_path": "notes/spurloc-dialogue-and-noir-style-guide.md",
+    "title": "Style Guide: Spurloc Cyber-Noir & Dialogue Pacing",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 488,
+    "reading_time_minutes": 2.4,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "notes",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:33:08.770328",
+    "updated_at": "2026-10-21T16:33:08.770328",
+    "extra": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "section_header": "3. Scene Construction Rules"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 2,
+  "total_chunks": 3
+}

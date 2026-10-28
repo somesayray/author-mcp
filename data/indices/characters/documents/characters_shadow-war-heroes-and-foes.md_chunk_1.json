@@ -1,0 +1,37 @@
+{
+  "id": "characters/shadow-war-heroes-and-foes.md#chunk_1",
+  "content": "### Commander Eric Stride — Tactical Officer of the *Yorktown*\n- **Role**: Co-Protagonist / Gunnery Specialist\n- **Vessel**: *UEF Yorktown* (Heavy Dreadnought)\n- **Background**: Academy prodigy promoted rapidly under wartime attrition. Stride is calculating, unflappable under fire, and an expert in deep-space firing solutions.\n- **Attributes & Skills**:\n  - Coordinates multi-ship missile swarms and point-defense interception barriers.\n  - Acts as the operational balance to Jaxen Vance's aggressive frontline instincts.\n\n---\n\n### Admiral Christopher Zhao — Supreme Commander, Sol Fleet\n- **Role**: Strategic Fleet Commander\n- **Headquarters**: Orbital Citadel *Olympus*, Luna Orbit\n- **Background**: The stoic supreme commander tasked with humanity's survival. Balances political pressure from civilian planetary governors with the stark reality of dwindling naval reserves.\n- **Attributes & Skills**:\n  - Master of grand interstellar logistics, orbital defensive grid deployment, and planetary fortification.\n  - Must navigate ruthless moral choices—deciding which outer colony stations to sacrifice in order to preserve the core defense line around Earth.\n\n---",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/characters/shadow-war-heroes-and-foes.md",
+    "relative_path": "characters/shadow-war-heroes-and-foes.md",
+    "title": "Characters: Shadow War Chronicles",
+    "source_type": "file",
+    "category": "characters",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 426,
+    "reading_time_minutes": 2.1,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "characters",
+      "development",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:31:57.572302",
+    "updated_at": "2026-10-21T16:31:57.572302",
+    "extra": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "section_header": "Chief Engineer Tarek Thorne — *Revenant* Propulsion Specialist"
+    }
+  },
+  "index_name": "characters",
+  "chunk_index": 1,
+  "total_chunks": 3
+}

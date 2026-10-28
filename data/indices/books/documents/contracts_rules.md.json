@@ -1,0 +1,34 @@
+{
+  "id": "contracts/rules.md",
+  "content": "# Contracts Subsystem - Local Rules\n\n> Specific rules and constraints for the Contracts Subsystem module.\n\n## Constraints\n- \n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/contracts/rules.md",
+    "relative_path": "contracts/rules.md",
+    "title": "Contracts Subsystem - Local Rules",
+    "source_type": "file",
+    "category": "general",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 14,
+    "reading_time_minutes": 0.1,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "contracts",
+      "development",
+      "general",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:06:22.254708",
+    "updated_at": "2026-10-21T16:06:22.254708",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

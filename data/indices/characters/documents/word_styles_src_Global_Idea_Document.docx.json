@@ -1,0 +1,35 @@
+{
+  "id": "word styles/src/Global Idea Document.docx",
+  "content": "Book Title Book Sub-title or tag line. Dictate whether this is a series or not.  This is the idea description this is where I write out the basics of the idea, this allows me to work through whatever my thought process is.  Idea Point This is an idea point, things I need to remember about the possible plot.  Character  Name Character Job or Identity This is the character description for the book.  NOTES: These are notes on the book that I can add later as I think of things  This is a note  This is another note This is a sub note  This is a  sub-sub  note This is a second sub note  This is yet another note. ",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/word styles/src/Global Idea Document.docx",
+    "relative_path": "word styles/src/Global Idea Document.docx",
+    "title": "Global Idea Document",
+    "source_type": "file",
+    "category": "characters",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 120,
+    "reading_time_minutes": 0.6,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "characters",
+      "development",
+      "projects",
+      "raybayly",
+      "src",
+      "users",
+      "word_styles"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:12:20.791676",
+    "updated_at": "2026-10-21T20:08:00",
+    "extra": {}
+  },
+  "index_name": "characters",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "outlines/sanguine-relics-trilogy.md#chunk_0",
+  "content": "# Outline: Sanguine Relics & Lords Trilogy\n\n## Series Concept\nAn urban and post-apocalyptic dark fantasy saga bridging historical Catholic mysteries, sacred blade relics, vampire covens, and feral werewolf wars. From modern American cities hiding medieval relics to the ruined post-fall seaboard ruled by autocratic vampire warlords, the saga charts humanity's struggle against nocturnal apex predators.\n\n---\n\n## Trilogy Architecture\n\n```mermaid\nflowchart LR\n    A[\"Book 1: Legacy (Lobera)\"] --> B[\"Book 2: The Pack\"]\n    B --> C[\"Book 3: Outrider (Reign of the Sanguine Lords)\"]\n```\n\n---\n\n## Detailed Book Breakdown",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/outlines/sanguine-relics-trilogy.md",
+    "relative_path": "outlines/sanguine-relics-trilogy.md",
+    "title": "Outline: Sanguine Relics & Lords Trilogy",
+    "source_type": "file",
+    "category": "outlines",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 730,
+    "reading_time_minutes": 3.6,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "epilogue",
+      "fantasy",
+      "outlines",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:44:51.186063",
+    "updated_at": "2026-10-22T05:44:51.186063",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 4,
+      "section_header": "Book 1: *Legacy (Lobera)* — COMPLETED (~38,847 words, 22 Chapters + Epilogue)"
+    }
+  },
+  "index_name": "outlines",
+  "chunk_index": 0,
+  "total_chunks": 4
+}

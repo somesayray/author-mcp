@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md#chunk_2",
+  "content": "### 3. Spelling, Homophone & Typographical Corrections\n- **Homophones & Possessives**: Corrected multiple occurrences of 'there' -> 'their' (their eyes, their heads, their weapons, their camp), 'who's' -> 'whose' (whose only reason, whose face), 'reigns' -> 'reins', and 'tenants' -> 'tenets'.\n- **Vocabulary Polish**: Corrected 'nessescary' -> 'necessary', 'untill' -> 'until', 'a worst punishment' -> 'a worse punishment', and 'knocking the air of out him' -> 'knocking the air out of him'.\n- **Punctuation Cleanliness**: Removed stray leading spaces before commas (` ,` -> `,`), periods (` .` -> `.`), and question marks. Normalized smart quotation marks.\n- **Epilogue Header**: Corrected corrupted draft OCR string `Q 1Holy Ruler` to `Holy Ruler`.\n\n### 4. Trilogy Continuity Alignment\n- **Marcus Gavin**: Follows Marcus as he explores his Source powers, seeks allies among the Silvan folk, and evades the Black Queen's Chosen.\n- **The Black Queen / Empress**: Her dominion deepens as Chancellor Juric Rogan executes brutal pacification campaigns and prepares for war against the neighboring realms.\n- **The Wardens & The Church**: Chronicled through the eyes of Lorin Corliss and Messenger Veric Nero, detailing the rise of the fanatical *Sword of the Faithful* and the ultimate defense of the Wardens' Keep.\n- **Bridge to Book Three**: Closes with the seeds of the final imperial war, directly leading into *Fall of the Empire (Draconis)*.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md",
+    "title": "Release Notes: The Black Queen (Earth Reborn — Book 2)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 501,
+    "reading_time_minutes": 2.5,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "epilogue",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "the_black_queen",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:21:40.953798",
+    "updated_at": "2026-10-22T05:21:40.953798",
+    "extra": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "section_header": "4. Trilogy Continuity Alignment"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 2,
+  "total_chunks": 3
+}

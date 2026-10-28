@@ -1,0 +1,38 @@
+{
+  "id": "outlines/spurloc-investigations.md#chunk_0",
+  "content": "# Outline: Spurloc Investigations (Cyber-Noir Mystery Series)\n\n## Series Concept\nA hardboiled, neon-drenched cyber-noir procedural set in the futuristic megacity of **Metroplex**. Detective Martin Spurloc—a half-cybernetic ex-police warlock—partners with **Elvis**, a snarky, escaped military-grade AI speaking with the drawl of an old-world rock legend, to solve the crimes that corporate security and municipal cops refuse to touch.\n\n---\n\n## Series Arc Overview\n\n```mermaid\nflowchart TD\n    Case1[\"Case 1: Shadows of the City<br/>(The Danforth Murder Frame-Job)\"]\n    Case2[\"Case 2: Still of the Night<br/>(The Master Cat Burglar Heist)\"]\n    Case3[\"Case 3: Neon Hex<br/>(The Warlock Narcotic Syndicate)\"]\n    Case1 --> Case2\n    Case2 --> Case3\n```\n\n---\n\n## Case 1: *Shadows of the City*\n\n### High Concept & Logline\nIt always starts with a girl. When Spurloc is hired to tail the philandering heir to the greatest corporate fortune in Metroplex, he ends up standing over the billionaire's corpse with the murder weapon in hand and the entire city police force on his tail.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/outlines/spurloc-investigations.md",
+    "relative_path": "outlines/spurloc-investigations.md",
+    "title": "Outline: Spurloc Investigations (Cyber-Noir Mystery Series)",
+    "source_type": "file",
+    "category": "outlines",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 774,
+    "reading_time_minutes": 3.9,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "outlines",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:32:40.328190",
+    "updated_at": "2026-10-21T16:32:40.328190",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 4,
+      "section_header": "Act I: The Spire Commission"
+    }
+  },
+  "index_name": "outlines",
+  "chunk_index": 0,
+  "total_chunks": 4
+}

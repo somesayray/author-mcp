@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Orion Chronicles/Orions Child/RELEASE_NOTES.md#chunk_0",
+  "content": "# Release Notes: Orion's Child (Orion Chronicles — Book 1)\n\n## Publication Information\n- **Title**: *Orion's Child*\n- **Series**: The Orion Chronicles (Book 1)\n- **Author**: Raymond Bayly\n- **Universe**: *Shadow War Chronicles* Expanded Universe\n- **Total Word Count**: 9,914 words (Master Novella / Opening Novel)\n- **Total Chapters**: Prologue + 16 Chapters + Epilogue Beat\n- **Format Deliverables**:\n  - `orions-child-book-1.md` (Pristine master Markdown edition)\n  - `orions-child-book-1.docx` (Production-ready Microsoft Word manuscript in Georgia 11pt, 1.15 line spacing, 1-inch margins, chapter breaks, and styled epigraphs)\n\n---\n\n## Canonical Continuity & Character Alignment",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Orion Chronicles/Orions Child/RELEASE_NOTES.md",
+    "relative_path": "release copies/Orion Chronicles/Orions Child/RELEASE_NOTES.md",
+    "title": "Release Notes: Orion's Child (Orion Chronicles — Book 1)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 489,
+    "reading_time_minutes": 2.4,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "epilogue",
+      "notes",
+      "orion_chronicles",
+      "orions_child",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:13:07.490390",
+    "updated_at": "2026-10-22T05:13:07.490390",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "1. Protagonist Profile: Gracie Campbell & \"The Box\""
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

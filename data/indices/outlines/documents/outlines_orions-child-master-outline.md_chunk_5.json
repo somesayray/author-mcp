@@ -1,0 +1,37 @@
+{
+  "id": "outlines/orions-child-master-outline.md#chunk_5",
+  "content": "## Master Architecture & Three-Act Structure\n\n```mermaid\nflowchart TD\n    Prologue[\"Prologue: The Chute Escape<br/>(Surgery, The Crawl to the Waste Chute, Space Trash Truck, Fade Out)\"]\n    TimeJump[\"=== THREE MONTHS LATER ===\"]\n    Act1[\"Act I: Shadows of Freeport 9<br/>(90 Days Later, Bad Advice in Cantina, The Obsidian Contract)\"]\n    Act2A[\"Act II-A: The Graveyard of Ships<br/>(Obsidian Nebula, The Precursor Leviathan, Recovering the Aegis Core)\"]\n    Act2B[\"Act II-B: Phantom Pain & Betrayal<br/>(New Tortuga Refinery, Jax's Treachery, Full PTSD Breakdown)\"]\n    Act3[\"Act III: The Resonance of Scars<br/>(Overloading The Leviathan, Neural Feedback Showdown, The Child of Orion)\"]\n    \n    Prologue --> TimeJump\n    TimeJump --> Act1\n    Act1 --> Act2A\n    Act2A --> Act2B\n    Act2B --> Act3\n```\n\n---\n\n## Prologue & 16-Chapter Beat Breakdown",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/outlines/orions-child-master-outline.md",
+    "relative_path": "outlines/orions-child-master-outline.md",
+    "title": "Outline: Orion's Child (Orion Chronicles — Book 1)",
+    "source_type": "file",
+    "category": "outlines",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 2738,
+    "reading_time_minutes": 13.7,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "outlines",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T18:08:57.996946",
+    "updated_at": "2026-10-21T18:08:57.996946",
+    "extra": {
+      "chunk_index": 5,
+      "total_chunks": 17,
+      "section_header": "Prologue: *The Chute*"
+    }
+  },
+  "index_name": "outlines",
+  "chunk_index": 5,
+  "total_chunks": 17
+}

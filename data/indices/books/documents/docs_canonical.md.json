@@ -1,0 +1,34 @@
+{
+  "id": "docs/canonical.md",
+  "content": "# Docs Subsystem - Canonical Reference\n\n> Canonical sources of truth for Docs Subsystem.\n\n## Architecture\n- \n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/docs/canonical.md",
+    "relative_path": "docs/canonical.md",
+    "title": "Docs Subsystem - Canonical Reference",
+    "source_type": "file",
+    "category": "general",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 12,
+    "reading_time_minutes": 0.1,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "docs",
+      "general",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:06:22.256003",
+    "updated_at": "2026-10-21T16:06:22.256003",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

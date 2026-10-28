@@ -1,0 +1,37 @@
+{
+  "id": "AGENTS.md#chunk_0",
+  "content": "# AGENTS.md — Books\n\n> Role: **Books** · Member of Enterprise Agentic Platform\n\n## CR-CLI-ENTRY-001: Start with the CLI (CRITICAL — Org-Wide)\n\n1. **Start with the CLI (CRITICAL ENTRY GATE)**: When receiving ANY request or starting any task, agents **MUST ALWAYS START WITH THE OPERATOR CLI (`hath0r`)** rather than inventing ad-hoc scripts.\n2. **Missing Capability Offer**: If the required connection, MCP, workflow, bot, or factory does not exist in `hath0r`, offer to register the missing capability.\n3. **Docs before code**: Require procedure/playbook/runbook before scaffolding implementation.\n\n---",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/AGENTS.md",
+    "relative_path": "AGENTS.md",
+    "title": "AGENTS.md — Books",
+    "source_type": "file",
+    "category": "manuscript",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 405,
+    "reading_time_minutes": 2.0,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "manuscript",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:40:24.955772",
+    "updated_at": "2026-10-21T16:40:24.955772",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "Author MCP Knowledge Protocol (cr-author-mcp-001)"
+    }
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

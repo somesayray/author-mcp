@@ -1,0 +1,33 @@
+{
+  "id": "README.md",
+  "content": "# Books\n\n**Author Text Documents & Manuscript Library**\n\n> Technical Reference: See [TECH_README.md](TECH_README.md) for repository architecture and Hath0r alignment.\n\n---\n\n## Overview\n\nThe `Books` repository contains text manuscripts, chapter drafts, outlines, lore bibles, and character dossiers for Ray Bayly's literary works.\n\n> **CRITICAL RULE**: There is NO site or web application for Books. This repository contains only text documents.\n\n- 📖 **Text Documents Only**: Pure markdown, text drafts, and lore documentation.\n- 🗼 **Orchestrated by ATC**: Managed and observed by the Author Air Traffic Control (`mcp`).\n- 🧠 **Root MCP Integration**: Indexed and served via `Author-MCP` (`http://127.0.0.1:18083`) for agent knowledge sharing and retrieval.\n\n---\n\n## Directory Structure\n\n```text\nBooks/\n├── manuscripts/       # Story drafts, chapters, and complete manuscripts\n├── characters/        # Character dossiers, relationships, and voice profiles\n├── worldbuilding/     # Lore bibles, faction codices, and setting rules\n├── outlines/          # Chapter synopses, story arcs, and series structures\n├── notes/             # Ideation memos, research notes, and editorial feedback\n├── docs/              # Governance and operational documents\n└── tests/             # Integrity and compliance tests\n```\n\n---\n\n## Quick Start with Hath0r\n\n```sh\n# Verify repository health with Hath0r CLI\nhath0r doctor\n\n# Verify compliance tests\npytest tests/\n```\n\n---\n\n## License\n\nApache License 2.0\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/README.md",
+    "relative_path": "README.md",
+    "title": "Books",
+    "source_type": "file",
+    "category": "manuscript",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 176,
+    "reading_time_minutes": 0.9,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "manuscript",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:08:04.851491",
+    "updated_at": "2026-10-21T16:08:04.851491",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

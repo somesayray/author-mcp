@@ -1,0 +1,37 @@
+{
+  "id": "lore/shadow-war-universe.md#chunk_0",
+  "content": "# Lore Codex: The Shadow War Chronicles\n\n> **Series**: *The Shadow War Chronicles* (9-Novel Master Canon)  \n> **Author**: Ray Bayly  \n> **Source Material**: *Revenant*, *Jamestown*, *Vengeance*, *Renegades*, *Overlords*, *Extinction*, *Sacrifice*, *Mortis*, *Yorktown*  \n> **Document Type**: Lore Bible & Strategic Military Setting Reference  \n\n---\n\n## 1. Setting Overview & The First Incursion\n\n*The Shadow War Chronicles* takes place in the late 22nd and early 23rd centuries, an era when humanity has successfully established off-world outposts across the Sol system and founded its first interstellar frontier colonies—most notably **Jamestown**.\n\nHumanity believed itself alone until the arrival of the **Shadow Fleet**—a technologically advanced, relentless alien conglomerate operating from the deep void beyond mapped space. Unlike peaceful first-contact scenarios, the Incursion was surgical, brutal, and unprovoked.\n\n```text\n[ Outer Void ] ===> [ Jamestown Colony ] ===> [ Kuiper Belt Gateways ] ===> [ Earth & Sol Inner Ring ]\n     |                       |                            |                           |\n The Shadows          First Fall &            Guerrilla Renegades          Fortress Earth &\n   Armada              Resistance                 Operations               Yorktown Defense Line\n```\n\n---\n\n## 2. Core Galactic Factions",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/lore/shadow-war-universe.md",
+    "relative_path": "lore/shadow-war-universe.md",
+    "title": "Lore Codex: The Shadow War Chronicles",
+    "source_type": "file",
+    "category": "lore",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 425,
+    "reading_time_minutes": 2.1,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "lore",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:31:01.288742",
+    "updated_at": "2026-10-21T16:31:01.288742",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "The United Earth Defense Council & Sol Fleet"
+    }
+  },
+  "index_name": "lore",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

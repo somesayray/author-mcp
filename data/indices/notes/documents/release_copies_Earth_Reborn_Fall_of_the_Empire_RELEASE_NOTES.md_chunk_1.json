@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md#chunk_1",
+  "content": "### 2. Comprehensive Deep-Review & Copy-Editing Pass\n- **Feudal Office Normalization**: Corrected 96+ instances of chemical `reagent` / `reagents` to the political title `Lord Regent` / `Regent Nero` / `regents`.\n- **Imperial Dignity & Hierarchy**: Corrected `Emporer` -> `Emperor`, `Emisary` -> `Emissary`, `govenor` -> `governor`, `councilers` -> `councilors`, `stuard` -> `steward`, `seargant` -> `sergeant`, and `adjucator` -> `adjudicator`.\n- **Character Name Regularization**: Fixed OCR misreads of key figures: `marcsus` / `macrcus` -> `Marcus`, `maelan` -> `Maelen`, `duass` -> `Durass`, `kolrim` -> `Korlin`, `koplir` / `kopril` -> `Kolprise`, `potric` / `lostric` -> `Postric`, `zathirs` -> `Zathris`, and `victora` -> `Victoria`.\n- **Homophones, Possessives & Grammar**:\n  - Systematic resolution of `there` -> `their` across dozens of instances (`their lands`, `their leaders`, `their chests`, `their weapons`, `their camp`, `their faces`, `their seal`).\n  - Corrected `your leaving` -> `you're leaving`, `your going` -> `you're going`, `your right` -> `you're right`, `whats going` -> `what's going`, `its done` -> `it's done`, and `to late` -> `too late`.\n  - Fixed contraction typos: `could'nt` -> `couldn't`, `would'nt` -> `wouldn't`, `should'nt` -> `shouldn't`, `did'nt` -> `didn't`, `was'nt` -> `wasn't`, `eye'd` -> `eyed`, and `tattoo'd` -> `tattooed`.\n- **Deep Vocabulary Cleanliness**: Resolved dozens of draft misspellings: `on all fourse` -> `on all fours`, `barely vield` -> `barely veiled`, `the reacture` -> `the creature`, `tant amount` -> `tantamount`, `packed back` -> `packed bag`, `the procephy` -> `the prophecy`, `salive` -> `saliva`, `quniform` -> `cuneiform`, `zenophobic` -> `xenophobic`, `idedic` -> `eidetic`, `weild` -> `wield`, and `loosing` -> `losing`.\n- **Epilogue Polish**: Replaced run-on phrasing and missing dialogue transitions with smooth, emotive prose as Nero assumes the Regency, Corliss leads the Wardens, and Marcus Gavin rides north into legend.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md",
+    "title": "Release Notes: Fall of the Empire (Earth Reborn — Book 3)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 570,
+    "reading_time_minutes": 2.9,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "epilogue",
+      "fall_of_the_empire",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:35:45.056884",
+    "updated_at": "2026-10-22T05:35:45.056884",
+    "extra": {
+      "chunk_index": 1,
+      "total_chunks": 3,
+      "section_header": "3. Chapter Index"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 1,
+  "total_chunks": 3
+}

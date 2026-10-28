@@ -1,0 +1,41 @@
+{
+  "id": "release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md#chunk_0",
+  "content": "# Release Notes: The Fallen (Earth Reborn — Book 1)\n\n## Publication Information\n- **Title**: *The Fallen: An Earth Reborn Novel*\n- **Series**: Earth Reborn Trilogy (Book 1 of 3)\n- **Author**: Raymond Bayly\n- **Total Word Count**: ~151,800 words\n- **Total Chapters**: 16 Chapters + Prologue\n- **Format Deliverables**:\n  - `the-fallen-book-1.md` (Pristine master Markdown edition)\n  - `the-fallen-book-1.docx` (Production-ready Microsoft Word manuscript formatted in Georgia 11pt, 1.15 line spacing, 1-inch margins, chapter breaks, and styled epigraphs)\n  - `the-fallen-book-1.pdf` (Final publication-grade PDF deliverable)\n\n---\n\n## Editorial, Continuity & Proofreading Summary\n\n### 1. Protagonist Name Consistency\n- **Marcus Gavin**: Unified protagonist name across the entire book. In earlier drafts, paragraph 12 of the Prologue had used the placeholder surname 'Quentin' (`Captain Marcus Quentin`); this was harmonized to `Captain Marcus Gavin` to match all subsequent chapters, Book Two (*Black Queen*), and the master character bibles.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md",
+    "title": "Release Notes: The Fallen (Earth Reborn — Book 1)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 436,
+    "reading_time_minutes": 2.2,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "the_fallen",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T06:23:18.050787",
+    "updated_at": "2026-10-22T06:23:18.050787",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "2. Spelling, Homophone & Typographical Corrections"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

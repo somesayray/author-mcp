@@ -1,0 +1,35 @@
+{
+  "id": "word styles/src/Global Blurb.docx",
+  "content": "Book Title Book Series Book Number This is the book  blurb,  this will tell you how the book is and what it is about, use this as a sales tool The following gives you information to use when writing out the blurb. Blurb Writing Tips (DELETE) Know your Genre Give the readers what they want Start with the hook Don’t summarize, entice Aim for 150 words. Avoid Trope, Clichés and The Cheese Factor Write in the third person Appeal to your readers emotions Write more than one Blurb.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/word styles/src/Global Blurb.docx",
+    "relative_path": "word styles/src/Global Blurb.docx",
+    "title": "Global Blurb",
+    "source_type": "file",
+    "category": "general",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 89,
+    "reading_time_minutes": 0.4,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "general",
+      "projects",
+      "raybayly",
+      "src",
+      "users",
+      "word_styles"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:12:20.791771",
+    "updated_at": "2026-10-21T20:08:00",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

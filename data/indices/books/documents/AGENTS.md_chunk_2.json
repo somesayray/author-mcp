@@ -1,0 +1,37 @@
+{
+  "id": "AGENTS.md#chunk_2",
+  "content": "## Branch Governance (cr-branch-gov-001)\n\n- Issue first: create an issue before cutting a branch.\n- Naming: `feature|bugfix|enhancement|chore/<issue-number>-slug`\n- Base PR target: `development`\n\n## AgentGraph Substrate\n\nThis repository is governed by the Hath0r AgentGraph substrate. Dynamic rule retrieval, role RBAC, and policy graphs are stored under `.hath0r/agentgraph/`.\n- Query status: `hath0r agentgraph status`\n- Query rules: `hath0r agentgraph query \"<topic>\"`\n- Route role: `hath0r agentgraph route --role <role>`\n- Validate rules: `hath0r agentgraph validate`\n\n## Hyper Context Pointers\n- **Contracts Subsystem**: `/Users/raybayly/Development/Projects/Author/Books/contracts/AGENTS.md`\n- **Docs Subsystem**: `/Users/raybayly/Development/Projects/Author/Books/docs/AGENTS.md`\n- **Tests Subsystem**: `/Users/raybayly/Development/Projects/Author/Books/tests/AGENTS.md`\n- **Cfg Subsystem**: `/Users/raybayly/Development/Projects/Author/Books/cfg/AGENTS.md`",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/AGENTS.md",
+    "relative_path": "AGENTS.md",
+    "title": "AGENTS.md — Books",
+    "source_type": "file",
+    "category": "manuscript",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 405,
+    "reading_time_minutes": 2.0,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "manuscript",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:40:24.955772",
+    "updated_at": "2026-10-21T16:40:24.955772",
+    "extra": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "section_header": "Hyper Context Pointers"
+    }
+  },
+  "index_name": "books",
+  "chunk_index": 2,
+  "total_chunks": 3
+}

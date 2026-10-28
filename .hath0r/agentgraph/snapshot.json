@@ -1,0 +1,315 @@
+{
+  "schema_version": "hath0r.agentgraph/1",
+  "graph_id": "agentgraph-mcp",
+  "timestamp": "2026-10-28T15:29:11.952093+00:00",
+  "nodes": [
+    {
+      "id": "doc:_hath0r__knowledgebase__lessons-learned__share-20261021T200615Z_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Share 20261021T200615Z",
+      "content": "# Knowledge share share-20261021T200615Z\n\n- **Generated:** 2026-10-21T20:06:15.400329+00:00\n- **Repo:** local\n- **PR:** n/a\n\n## Summary\nUniversal repository onboarding: initialized HATHOR framework and migrated AgentGraph cognitive substrate (knowledge, rules, agents, memory).\n",
+      "properties": {
+        "path": ".hath0r/knowledgebase/lessons-learned/share-20261021T200615Z.md",
+        "category": "lessons-learned",
+        "size_bytes": 278
+      },
+      "is_current": true
+    },
+    {
+      "id": "doc:README_md",
+      "plane": "knowledge",
+      "type": "knowledge_doc",
+      "label": "Readme",
+      "content": "# author-mcp\nMy Author MCP\n",
+      "properties": {
+        "path": "README.md",
+        "category": "root",
+        "size_bytes": 27
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-cli-entry-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Start with CLI Rule",
+      "content": "Always start with hath0r operator CLI before inventing ad-hoc actions.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "rule",
+          "governance",
+          "cli"
+        ],
+        "importance": 1.0
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-bai-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Promotion Path Policy",
+      "content": "Promotion order: local -> development -> testing -> staging -> master.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "rule",
+          "governance",
+          "ci"
+        ],
+        "importance": 1.0
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:rule:cr-memory-compound-001",
+      "plane": "memory",
+      "type": "rule",
+      "label": "Mandatory MemoryGraph Compounding Rule",
+      "content": "Every project repo must maintain .hath0r/memory/graph.json and every task must compound knowledge prior to announcing complete.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "rule",
+          "governance",
+          "memorygraph",
+          "cr-memory-compound-001"
+        ],
+        "importance": 1.0
+      },
+      "is_current": true
+    },
+    {
+      "id": "concept:tri-graph",
+      "plane": "memory",
+      "type": "concept",
+      "label": "Tri-Graph Substrate",
+      "content": "Three-layer cognitive graph architecture: KnowledgeGraph, ContextGraph, MemoryGraph.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "architecture",
+          "substrate",
+          "tri-graph"
+        ],
+        "importance": 0.9
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:episode:clean-repo-mcp",
+      "plane": "memory",
+      "type": "episode",
+      "label": "Clean Repo Lifecycle (mcp)",
+      "content": "Executed 13-step clean-repo hygiene, branch merges, and knowledge sync for mcp.",
+      "properties": {
+        "source": "local_memory",
+        "tags": [
+          "clean-repo",
+          "hygiene",
+          "mcp",
+          "episode",
+          "compounded"
+        ],
+        "importance": 0.75
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:eval:clean-repo-mcp",
+      "plane": "memory",
+      "type": "eval",
+      "label": "Task Evaluation clean-repo-mcp (R=1.00, PASS)",
+      "content": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=1.0000 (det=1.00, traj=1.00, adv=1.00, goal=1.00). Gate=PASSED.",
+      "properties": {
+        "source_files": {
+          ".hath0r/evals/latest.json": "sha256:a3b8955bfeed4c9e325a53950683b27e2dbd67223eef96462534e76d5cca9bc8"
+        },
+        "source": "local_memory",
+        "tags": [
+          "eval",
+          "cr-task-eval-001",
+          "clean-repo-mcp",
+          "passed",
+          "compounded"
+        ],
+        "importance": 0.85
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:session:sess-20261028-152911-2afdbc",
+      "plane": "memory",
+      "type": "session",
+      "label": "Micro Session sess-20261028-152911-2afdbc",
+      "content": "Micro Session sess-20261028-152911-2afdbc [completed] | Focus: CleanReposWorkflowBot reading micro-session for mcp | Reads: 1, Writes: 4 | Entries: Clean Repo Lifecycle completed for mcp.; Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=1.00, PASS)",
+      "properties": {
+        "session_id": "sess-20261028-152911-2afdbc",
+        "prior_session_id": null,
+        "parent_session_id": null,
+        "read_count": 1,
+        "write_count": 4,
+        "status": "completed",
+        "byte_size": 1893,
+        "source": "local_memory",
+        "tags": [
+          "session",
+          "micro-session",
+          "completed"
+        ],
+        "importance": 0.75
+      },
+      "is_current": true
+    },
+    {
+      "id": "role:developer",
+      "plane": "rules",
+      "type": "agent_role",
+      "label": "Developer Agent",
+      "content": "Full access software engineer role permitted to run commands, edit files, and build.",
+      "properties": {
+        "role_name": "developer",
+        "permitted_tools": [
+          "read_file",
+          "write_file",
+          "run_command",
+          "search_code"
+        ],
+        "forbidden_tools": [
+          "direct_push_master"
+        ]
+      },
+      "is_current": true
+    },
+    {
+      "id": "role:reader",
+      "plane": "rules",
+      "type": "agent_role",
+      "label": "Read-Only Agent",
+      "content": "Read-only inspection role strictly prohibited from modifying code or executing commands.",
+      "properties": {
+        "role_name": "reader",
+        "permitted_tools": [
+          "read_file",
+          "search_code"
+        ],
+        "forbidden_tools": [
+          "run_command",
+          "write_file",
+          "git_push"
+        ]
+      },
+      "is_current": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "memory:rule:cr-cli-entry-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-memory-compound-001",
+      "target": "concept:tri-graph",
+      "relation": "ENFORCES",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261028-152911-2afdbc",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:clean-repo-mcp",
+      "target": "concept:tri-graph",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:clean-repo-mcp",
+      "target": "memory:rule:cr-memory-compound-001",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:clean-repo-mcp",
+      "target": "memory:session:sess-20261028-152911-2afdbc",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "concept:tri-graph",
+      "relation": "EVALUATES",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "memory:rule:cr-memory-compound-001",
+      "relation": "EVALUATES",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "memory:session:sess-20261028-152911-2afdbc",
+      "relation": "EVALUATES",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "memory:session:sess-20261028-152911-2afdbc",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-cli-entry-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-bai-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:rule:cr-memory-compound-001",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "concept:tri-graph",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:clean-repo-mcp",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261028-152911-2afdbc",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    }
+  ],
+  "metadata": {
+    "repo_root": "/Users/raybayly/Development/Projects/Author/mcp",
+    "synced_sources": 3
+  }
+}

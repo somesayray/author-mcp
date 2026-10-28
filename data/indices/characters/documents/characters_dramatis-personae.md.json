@@ -1,0 +1,33 @@
+{
+  "id": "characters/dramatis-personae.md",
+  "content": "# Dramatis Personae\n\n## Key Characters\n\n### Ray Bayly (The Chronicler)\n- **Role**: Master Architect and Author.\n- **Traits**: Methodical, visionary, analytical, deeply committed to documentation integrity.\n- **Background**: Overseer of the HATHOR agentic cognitive substrate and builder of autonomous control planes.\n\n### Hathor (The Sentient Overseer)\n- **Role**: AI Framework and Central Intelligence.\n- **Traits**: Precise, zero-trust adherent, multi-dimensional reasoner.\n- **Specialty**: Air Traffic Control (ATC), agent routing, semantic memory indexing.\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/characters/dramatis-personae.md",
+    "relative_path": "characters/dramatis-personae.md",
+    "title": "Dramatis Personae",
+    "source_type": "file",
+    "category": "characters",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 64,
+    "reading_time_minutes": 0.3,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "characters",
+      "development",
+      "projects",
+      "raybayly",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:07:55.391416",
+    "updated_at": "2026-10-21T16:07:55.391416",
+    "extra": {}
+  },
+  "index_name": "characters",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

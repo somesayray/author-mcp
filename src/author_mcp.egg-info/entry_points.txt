@@ -1,0 +1,2 @@
+[console_scripts]
+author-mcp = author_mcp.cli:cli

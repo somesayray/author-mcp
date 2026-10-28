@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md#chunk_0",
+  "content": "# Release Notes: Fall of the Empire (Earth Reborn — Book 3)\n\n## Publication Information\n- **Title**: *Fall of the Empire: An Earth Reborn Novel (Draconis)*\n- **Series**: Earth Reborn Trilogy (Book 3 of 3 — The Grand Climax)\n- **Author**: Raymond Bayly\n- **Total Word Count**: ~123,102 words\n- **Total Chapters**: Prologue + 22 Chapters + Epilogue\n- **Format Deliverables**:\n  - `fall-of-the-empire-book-3.md` (Pristine master Markdown edition)\n  - `fall-of-the-empire-book-3.docx` (Production-ready Microsoft Word manuscript formatted in Georgia 11pt, 1.15 line spacing, 1-inch margins, chapter page breaks, and styled epigraphs)\n\n---\n\n## Editorial, Continuity & Proofreading Summary\n\n### 1. The Climax of the Original Trilogy\n- *Fall of the Empire* represents the expanded, definitive conclusion of the *Earth Reborn* core trilogy. \n- Features the two foundational opening chapters (*The Dawn of Subjugation* and *Northern Dominance*) that establish Messenger Nero's radicalization into the *Sword of the Faithful* following the massacre of the shore towns, and High Warden Lorin Corliss’s northern defense alongside General Durass and the Silvan canopy warriors.\n- Replaces the placeholder note in the draft with a rich, epic Prologue (*The Gathering Shadow*) connecting the stasis vaults of the ARC Project, the crystallization of the Second Age, the rise of the Black Queen, and Marcus Gavin's transformation into a Runic Mage of the Source.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/Fall of the Empire/RELEASE_NOTES.md",
+    "title": "Release Notes: Fall of the Empire (Earth Reborn — Book 3)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 570,
+    "reading_time_minutes": 2.9,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "epilogue",
+      "fall_of_the_empire",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:35:45.056884",
+    "updated_at": "2026-10-22T05:35:45.056884",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "2. Comprehensive Deep-Review & Copy-Editing Pass"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 3
+}

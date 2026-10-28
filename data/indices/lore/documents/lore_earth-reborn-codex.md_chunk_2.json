@@ -1,0 +1,38 @@
+{
+  "id": "lore/earth-reborn-codex.md#chunk_2",
+  "content": "## 3. The Core Trilogy Timeline\n\n```text\n+-----------------------------+      +-----------------------------+      +-----------------------------+\n|   Book 1: The Fallen        |      |   Book 2: The Black Queen   |      |   Book 3: Fall of Empire    |\n|   - Marcus Gavin Awakens    | ---> |   - Hunt for Marcus's Blood | ---> |   - Total Continental War   |\n|   - Orah & Mountain Outpost |      |   - The Sword of Faithful   |      |   - Siege of Black Citadel  |\n|   - Resin Cannons Introduced|      |   - Wardens' Keep Defended  |      |   - Fate of Earth Reborn    |\n+-----------------------------+      +-----------------------------+      +-----------------------------+\n```",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/lore/earth-reborn-codex.md",
+    "relative_path": "lore/earth-reborn-codex.md",
+    "title": "Lore Codex: Earth Reborn Universe",
+    "source_type": "file",
+    "category": "lore",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 910,
+    "reading_time_minutes": 4.5,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "lore",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T06:26:14.280198",
+    "updated_at": "2026-10-22T06:26:14.280198",
+    "extra": {
+      "chunk_index": 2,
+      "total_chunks": 8,
+      "section_header": "The Second Age of Man (The Feudal Frontier)"
+    }
+  },
+  "index_name": "lore",
+  "chunk_index": 2,
+  "total_chunks": 8
+}

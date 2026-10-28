@@ -1,0 +1,37 @@
+{
+  "id": "manuscripts/Short Stories/Earth Reborn/Exodus/Part-1.docx",
+  "content": "Exodus Part 1 By Raymond Bayly “Atlas, this is cape  Canaveral ,  ground control is giving a green light for launch, do you copy?”",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/manuscripts/Short Stories/Earth Reborn/Exodus/Part-1.docx",
+    "relative_path": "manuscripts/Short Stories/Earth Reborn/Exodus/Part-1.docx",
+    "title": "Part 1",
+    "source_type": "file",
+    "category": "manuscript",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 23,
+    "reading_time_minutes": 0.1,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "exodus",
+      "manuscript",
+      "manuscripts",
+      "projects",
+      "raybayly",
+      "short_stories",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:12:20.789607",
+    "updated_at": "2026-10-21T20:02:00",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

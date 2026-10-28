@@ -1,0 +1,41 @@
+{
+  "id": "release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md#chunk_2",
+  "content": "### 3. Spacing & Punctuation Cleanliness\n- Removed 216 occurrences of leading spaces before commas (` ,` -> `,`).\n- Fixed 12 occurrences of space before terminal punctuation (` .`, ` ?`, ` !`).\n- Normalized spacing around smart quotation marks and dialogue tags.\n- Separated run-together chapter headers such as `TWOOrah` into `Chapter Two: Orah`.\n\n### 4. Trilogy Continuity Alignment\n- **The Fall & Awakening**: Marcus Gavin arrives from the ARC cryo-pod, learns the new pagan-like religion of the *Book of Aurtus*, and bonds with Orah on her isolated mountain homestead.\n- **The Empress's Incursion**: Rogan and the Empress's black-eyed altered soldiers arrive with new resin crystal-fire cannons, destroying the old balance of power and scattering the Wardens.\n- **Bridge to Book Two (*Black Queen*)**: The climax neatly lines up the Wardens (Corliss, Uri, Yorst, Durass) retreating into the Barrens toward Castello, while Marcus and Texas-veteran Maelen escape into the wilds with the spectral wolf, directly setting the stage for *Black Queen*.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/The Fallen/RELEASE_NOTES.md",
+    "title": "Release Notes: The Fallen (Earth Reborn — Book 1)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 436,
+    "reading_time_minutes": 2.2,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "the_fallen",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T06:23:18.050787",
+    "updated_at": "2026-10-22T06:23:18.050787",
+    "extra": {
+      "chunk_index": 2,
+      "total_chunks": 3,
+      "section_header": "4. Trilogy Continuity Alignment"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 2,
+  "total_chunks": 3
+}

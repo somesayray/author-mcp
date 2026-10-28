@@ -1,0 +1,36 @@
+{
+  "id": "manuscripts/sample-chapter.md",
+  "content": "# Prologue: The First Transmission\n\nThe hum of the mainframe was the only sound piercing the subterranean quiet of the data haven. Outside, rain fell steadily over the Pacific Northwest pines, but here beneath seventy feet of reinforced concrete, the temperature held fast at fifty-four degrees.\n\nRay adjusted his glasses and watched the green phosphor cursor blink on the terminal. A single packet stream had initiated across the quantum bridge—an unindexed memory sequence from an age long thought archived.\n\n\"System operational,\" the synthetic voice hummed through the speakers. \"Author root protocol engaged.\"\n\nHe smiled faintly. It was time to write the chronicle.\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/manuscripts/sample-chapter.md",
+    "relative_path": "manuscripts/sample-chapter.md",
+    "title": "Prologue: The First Transmission",
+    "source_type": "file",
+    "category": "manuscript",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 103,
+    "reading_time_minutes": 0.5,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "manuscript",
+      "manuscripts",
+      "projects",
+      "prologue",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:07:44.876550",
+    "updated_at": "2026-10-21T16:07:44.876550",
+    "extra": {}
+  },
+  "index_name": "books",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

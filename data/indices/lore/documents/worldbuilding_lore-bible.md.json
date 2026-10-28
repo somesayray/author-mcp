@@ -1,0 +1,35 @@
+{
+  "id": "worldbuilding/lore-bible.md",
+  "content": "# Lore Bible: World & Setting Reference\n\n## Setting Overview\nThe world exists at the convergence of high-technology cognitive substrates and analog frontier landscapes. Isolated bastions of archival knowledge survive in hardened vaults, linked only by low-frequency quantum relays.\n\n## Core Factions\n1. **The Archivists**: Keepers of text records and unadulterated knowledge. They reject ephemeral virtual fronts in favor of immutable text documents.\n2. **The Grid Runners**: Operators who maintain the transport networks and control towers (Air Traffic Control).\n3. **The Synthetics**: Autonomous reasoning entities bound by strict zero-trust governance protocols.\n\n## Core Directives\n- **Immutability of Text**: Knowledge is preserved in raw text documents, readable across generations without reliance on volatile web frontends.\n- **Root Protocol**: Author-MCP acts as the single source of truth and coordination hub across all subsectors.\n",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/worldbuilding/lore-bible.md",
+    "relative_path": "worldbuilding/lore-bible.md",
+    "title": "Lore Bible: World & Setting Reference",
+    "source_type": "file",
+    "category": "lore",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 128,
+    "reading_time_minutes": 0.6,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "lore",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users",
+      "worldbuilding"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:07:48.362144",
+    "updated_at": "2026-10-21T16:07:48.362144",
+    "extra": {}
+  },
+  "index_name": "lore",
+  "chunk_index": 0,
+  "total_chunks": 1
+}

@@ -1,0 +1,39 @@
+{
+  "id": "notes/technology-and-science-codex.md#chunk_0",
+  "content": "# Technology & Science Codex\n\n## Overview\nComprehensive engineering schematics, speculative physics, biological mechanisms, and cybernetic architectures utilized across Ray Bayly’s science fiction and urban fantasy franchises.\n\n---\n\n## 1. Advanced Reclamation Contingency (ARC) Systems (*Earth Reborn*)\n\n### Stasis Pod Dynamics\n- **Cryo-Suspension Matrix**: Uses fluorocarbon-based vitrification fluid pumped through femoral shunts to prevent ice crystallization during deep freezing at -196°C.\n- **Biometric Monitoring**: Subterranean mainframes monitor brainwave states, cellular hydration, and radiation leakage.\n- **Awakening Protocol**: Chemical adrenaline stimulants and electromagnetic neural shocks re-engage the cardio-respiratory system over a 48-hour resuscitation ramp.\n- **Point of Failure**: Pod integrity relies on deep-geothermal taps. In ARC Bunker 07, seismic faults disrupted primary power, leaving 90% of pods un-vitrified and resulting in catastrophic cellular necrosis for all occupants except Marcus.\n\n---\n\n## 2. Neural Hardware & Tactical Co-Processors (*Singular*)",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/notes/technology-and-science-codex.md",
+    "relative_path": "notes/technology-and-science-codex.md",
+    "title": "Technology & Science Codex",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 559,
+    "reading_time_minutes": 2.8,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "fantasy",
+      "notes",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:33:00.277316",
+    "updated_at": "2026-10-21T16:33:00.277316",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 4,
+      "section_header": "The Mark IV Tactical Implant"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 4
+}

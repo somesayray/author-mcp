@@ -1,0 +1,38 @@
+{
+  "id": "lore/chrome-sentinels-protocol.md#chunk_1",
+  "content": "## 2. The Chrome Augmentation Process\n\nSelection into the Sentinels is ruthless. Only a tiny fraction of candidates survive the psychological screening and physiological grafting:\n\n1. **Sub-Dermal Chrome Lattice**: Nanomaterial weave bonded directly beneath the dermis, providing kinetic dissipation against ballistic impacts and environmental extremes.\n2. **Neural Combat Telemetry (NCT)**: Direct cortical interface streaming situational awareness, target trajectory prediction, and squad telepathic data-links.\n3. **Enhanced Myofibrillar Actuators**: Artificial muscle fibers boosting physical speed and leap capacity fourfold over baseline humans.\n\n---\n\n## 3. Reaper Squad & Orbital Drop Doctrine\n\n**Reaper Squad** is the vanguard reconnaissance and shock assault cadre of the Sentinels.\n\n- **Drop Pod Infiltration**: Squad members deploy from high orbit inside ablative single-occupant atmospheric drop capsules, punching through planetary ionospheres at hypersonic speeds.\n- **Preston Marshal**: The anchor protagonist whose entry into Reaper Squad marks the transition of the Sentinel program from experimental prototype to battlefield dominance.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/lore/chrome-sentinels-protocol.md",
+    "relative_path": "lore/chrome-sentinels-protocol.md",
+    "title": "Lore Codex: Chrome & The Sentinel Protocol",
+    "source_type": "file",
+    "category": "lore",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 252,
+    "reading_time_minutes": 1.3,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "lore",
+      "projects",
+      "raybayly",
+      "sci-fi",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-21T16:31:11.711993",
+    "updated_at": "2026-10-21T16:31:11.711993",
+    "extra": {
+      "chunk_index": 1,
+      "total_chunks": 2,
+      "section_header": "3. Reaper Squad & Orbital Drop Doctrine"
+    }
+  },
+  "index_name": "lore",
+  "chunk_index": 1,
+  "total_chunks": 2
+}

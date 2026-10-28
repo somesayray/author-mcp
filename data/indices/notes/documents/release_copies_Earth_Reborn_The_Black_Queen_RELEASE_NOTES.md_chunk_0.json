@@ -1,0 +1,42 @@
+{
+  "id": "release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md#chunk_0",
+  "content": "# Release Notes: The Black Queen (Earth Reborn — Book 2)\n\n## Publication Information\n- **Title**: *The Black Queen: An Earth Reborn Novel*\n- **Series**: Earth Reborn Trilogy (Book 2 of 3)\n- **Author**: Raymond Bayly\n- **Total Word Count**: ~113,264 words\n- **Total Chapters**: Prologue + 20 Chapters + Epilogue\n- **Format Deliverables**:\n  - `the-black-queen-book-2.md` (Pristine master Markdown edition)\n  - `the-black-queen-book-2.docx` (Production-ready Microsoft Word manuscript formatted in Georgia 11pt, 1.15 line spacing, 1-inch margins, chapter page breaks, and styled epigraphs)\n\n---\n\n## Editorial, Continuity & Proofreading Summary\n\n### 1. Prologue Integration\n- In the original working draft, the author had left a placeholder note: `Write the prologue covering the fallen stuff people need to know before comtinuing until he was in his possession.`\n- Authored a comprehensive, canonical Prologue (*The Scars of the First Age*) bridging the cataclysmic events of *The Fallen*: the ARC stasis pods, the crystalline metamorphosis of Earth Reborn, the rise of the Gifted and the Church of Aurtus, the emergence of the Black Queen, the clash at the mountain outpost, and Marcus Gavin's perilous flight into the wild.",
+  "metadata": {
+    "path": "/Users/raybayly/Development/Projects/Author/Books/release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md",
+    "relative_path": "release copies/Earth Reborn/The Black Queen/RELEASE_NOTES.md",
+    "title": "Release Notes: The Black Queen (Earth Reborn — Book 2)",
+    "source_type": "file",
+    "category": "notes",
+    "series": null,
+    "book": null,
+    "chapter_number": null,
+    "word_count": 501,
+    "reading_time_minutes": 2.5,
+    "tags": [
+      "/",
+      "author",
+      "books",
+      "development",
+      "earth_reborn",
+      "epilogue",
+      "notes",
+      "projects",
+      "prologue",
+      "raybayly",
+      "release_copies",
+      "the_black_queen",
+      "users"
+    ],
+    "author": "Ray Bayly",
+    "created_at": "2026-10-22T05:21:40.953798",
+    "updated_at": "2026-10-22T05:21:40.953798",
+    "extra": {
+      "chunk_index": 0,
+      "total_chunks": 3,
+      "section_header": "2. Chapter Organization & Standardization"
+    }
+  },
+  "index_name": "notes",
+  "chunk_index": 0,
+  "total_chunks": 3
+}
