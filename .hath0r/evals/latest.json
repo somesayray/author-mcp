@@ -1,13 +1,13 @@
 {
   "schema_version": "hath0r.evals.scorecard/v1",
   "rule_id": "CR-TASK-EVAL-001",
-  "eval_id": "eval-20261028-181411-4fdd4f",
-  "task_id": "clean-repo-mcp",
+  "eval_id": "eval-20261029-135858-a822ed",
+  "task_id": "eval-baseline-mcp",
   "issue_number": null,
   "repo_name": "mcp",
   "branch": "development",
-  "evaluated_at": "2026-10-28T18:14:11.839957+00:00",
-  "duration_ms": 425.93,
+  "evaluated_at": "2026-10-29T13:58:58.412793+00:00",
+  "duration_ms": 209.27,
   "passed_gate": true,
   "r_task": 1.0,
   "min_reward_threshold": 0.8,
@@ -64,13 +64,13 @@
       "estimated_usd": 0.0,
       "max_usd": 0.25,
       "session_id": "sess-20261028-152911-2afdbc",
-      "session_reads": 4,
-      "session_writes": 8,
-      "session_bytes": 1782,
+      "session_reads": 6,
+      "session_writes": 12,
+      "session_bytes": 1848,
       "within_capsule_budget": true,
-      "latency_ms": 109.8,
-      "taguchi_quality_loss": 0.0002,
-      "snr_db": 25.21
+      "latency_ms": 76.12,
+      "taguchi_quality_loss": 0.0001,
+      "snr_db": 28.39
     },
     "adversarial": {
       "score": 1.0,
@@ -85,16 +85,46 @@
     "goal_alignment": {
       "score": 1.0,
       "passed": true,
-      "task_id": "clean-repo-mcp",
+      "task_id": "eval-baseline-mcp",
       "issue_number": null,
       "active_focus": "Provisioning CR-TASK-EVAL-001 for mcp",
       "compounded_nodes_count": 4,
       "consensus_score": 1.0
     }
   },
+  "evidence_trust_report": {
+    "schema": "hath0r.security.evidence_trust_report/1",
+    "tiers": {
+      "VERIFIED_EXECUTION": [
+        ".hath0r/evals/latest.json"
+      ],
+      "STATIC_AST_ANALYSIS": [
+        ".hath0r/evals/post-task-hook.sh",
+        ".hath0r/agentgraph/snapshot.json",
+        ".hath0r/evals/history/eval-eval-baseline-mcp.json",
+        ".hath0r/evals/latest.json",
+        ".hath0r/memory/graph.json",
+        ".hath0r/memory/hashes.json",
+        ".hath0r/memory/sessions/current.json",
+        ".hath0r/memory/sessions/latest.json",
+        ".hath0r/memory/sessions/sess-20261028-152911-2afdbc.json",
+        "cfg/evals/task-eval.json",
+        "CLAUDE.md",
+        "THREATMODEL.md"
+      ],
+      "UNVERIFIED_FILE_PRESENCE": [
+        ".agents/"
+      ]
+    },
+    "counts": {
+      "VERIFIED_EXECUTION": 1,
+      "STATIC_AST_ANALYSIS": 12,
+      "UNVERIFIED_FILE_PRESENCE": 1
+    }
+  },
   "blocking_reasons": [],
   "observability_sync": {
     "mode": "pending"
   },
-  "content_hash": "sha256:5cd5f79e1ebf066d011a939aa16c8e5ae105ef691b3880619ad9fd9507e5a9a0"
+  "content_hash": "sha256:d5c4cc283eda5e2cf1ae2404a17dbc71cb2cd5a525eb1f7eb5bca1efbbfcca78"
 }

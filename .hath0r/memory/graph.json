@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "graph_id": "canonical-memory-space",
-  "revision": 31,
-  "content_hash": "sha256:87d54630ded5fea4aa50fd6fc7ec5e5256c498e5afeca0b5d4dce503fff48dd0",
-  "updated_at": "2026-10-28T18:14:12.359113+00:00",
+  "revision": 49,
+  "content_hash": "sha256:36d1f389d73e66537bf09f7436d6f5e693608f6fde8469cb2ea3120f59d3863f",
+  "updated_at": "2026-10-29T13:58:58.700981+00:00",
   "nodes": [
     {
       "id": "rule:cr-cli-entry-001",
@@ -106,7 +106,7 @@
       "updated_at": "2026-10-28T18:14:12.213929+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:7c8f2c8efca395fc9b21ec6f9883792c77a956bb54b4cc0cc1411b7b1ad5c67e"
+          ".hath0r/evals/latest.json": "sha256:6df708ab771b40ecc1e5e553d04bb62e807ebad602bb9c126c2104005f9fb8a6"
         }
       }
     },
@@ -124,11 +124,11 @@
         "scorecard",
         "compounded"
       ],
-      "valid_from": "2026-10-28T17:45:40.609658+00:00",
+      "valid_from": "2026-10-29T13:58:58.307081+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T17:36:30.675916+00:00",
-      "updated_at": "2026-10-28T17:45:40.609658+00:00",
+      "updated_at": "2026-10-29T13:58:58.307081+00:00",
       "metadata": {}
     },
     {
@@ -144,14 +144,14 @@
         "passed",
         "compounded"
       ],
-      "valid_from": "2026-10-28T17:45:40.927383+00:00",
+      "valid_from": "2026-10-29T13:58:58.634488+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T17:45:40.927383+00:00",
-      "updated_at": "2026-10-28T17:45:40.927383+00:00",
+      "updated_at": "2026-10-29T13:58:58.634488+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:7c8f2c8efca395fc9b21ec6f9883792c77a956bb54b4cc0cc1411b7b1ad5c67e"
+          ".hath0r/evals/latest.json": "sha256:6df708ab771b40ecc1e5e553d04bb62e807ebad602bb9c126c2104005f9fb8a6"
         }
       }
     },
@@ -159,7 +159,7 @@
       "id": "session:sess-20261028-152911-2afdbc",
       "type": "session",
       "label": "Micro Session sess-20261028-152911-2afdbc",
-      "content": "Micro Session sess-20261028-152911-2afdbc [completed] | Focus: Provisioning CR-TASK-EVAL-001 for mcp | Reads: 4, Writes: 9 | Entries: Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=1.00, PASS)",
+      "content": "Micro Session sess-20261028-152911-2afdbc [completed] | Focus: Provisioning CR-TASK-EVAL-001 for mcp | Reads: 6, Writes: 13 | Entries: Compounded eval:eval-baseline-mcp: Task Evaluation eval-baseline-mcp (R=1.00, PASS)",
       "importance": 0.75,
       "tags": [
         "session",
@@ -170,15 +170,15 @@
       "valid_to": "2026-10-28T15:29:11.321397+00:00",
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.296524+00:00",
-      "updated_at": "2026-10-28T18:14:12.238854+00:00",
+      "updated_at": "2026-10-29T13:58:58.646869+00:00",
       "metadata": {
         "session_id": "sess-20261028-152911-2afdbc",
         "prior_session_id": null,
         "parent_session_id": null,
-        "read_count": 4,
-        "write_count": 9,
+        "read_count": 6,
+        "write_count": 13,
         "status": "completed",
-        "byte_size": 1797
+        "byte_size": 1816
       }
     }
   ],

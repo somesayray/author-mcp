@@ -20,7 +20,9 @@
     "require_deterministic_pass": true,
     "require_zero_critical_flaws": true,
     "require_finops_budget": true,
-    "require_memory_compounded": true
+    "require_memory_compounded": true,
+    "auto_run_after_every_task": true,
+    "require_scorecard_summary": true
   },
   "observability": {
     "phoenix_enabled": true,
