@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "graph_id": "canonical-memory-space",
-  "revision": 49,
-  "content_hash": "sha256:36d1f389d73e66537bf09f7436d6f5e693608f6fde8469cb2ea3120f59d3863f",
-  "updated_at": "2026-10-29T13:58:58.700981+00:00",
+  "revision": 58,
+  "content_hash": "sha256:c7ba2bc8a31237820a97f14f41602dc279c51e8b7013015e18c4eedf142e46cd",
+  "updated_at": "2026-10-29T14:18:25.724426+00:00",
   "nodes": [
     {
       "id": "rule:cr-cli-entry-001",
@@ -69,21 +69,21 @@
     {
       "id": "episode:clean-repo-mcp",
       "type": "episode",
-      "label": "Clean Repo Development Sync (mcp)",
-      "content": "Verified all changes merged into development and synced for mcp.",
-      "importance": 0.8,
+      "label": "Clean Repo Lifecycle (mcp)",
+      "content": "Executed 13-step clean-repo hygiene, branch merges, and knowledge sync for mcp.",
+      "importance": 0.75,
       "tags": [
         "clean-repo",
-        "development",
+        "hygiene",
         "mcp",
         "episode",
         "compounded"
       ],
-      "valid_from": "2026-10-28T18:14:11.688169+00:00",
+      "valid_from": "2026-10-29T14:18:24.474837+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.302371+00:00",
-      "updated_at": "2026-10-28T18:14:11.688169+00:00",
+      "updated_at": "2026-10-29T14:18:24.474837+00:00",
       "metadata": {}
     },
     {
@@ -99,14 +99,14 @@
         "passed",
         "compounded"
       ],
-      "valid_from": "2026-10-28T18:14:12.213929+00:00",
+      "valid_from": "2026-10-29T14:18:25.662901+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.904772+00:00",
-      "updated_at": "2026-10-28T18:14:12.213929+00:00",
+      "updated_at": "2026-10-29T14:18:25.662901+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:6df708ab771b40ecc1e5e553d04bb62e807ebad602bb9c126c2104005f9fb8a6"
+          ".hath0r/evals/latest.json": "sha256:18bcaf302001c15ce8e0c63d24ce4004e40db247da515c1abf664fb72aa84e3d"
         }
       }
     },
@@ -151,7 +151,7 @@
       "updated_at": "2026-10-29T13:58:58.634488+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:6df708ab771b40ecc1e5e553d04bb62e807ebad602bb9c126c2104005f9fb8a6"
+          ".hath0r/evals/latest.json": "sha256:18bcaf302001c15ce8e0c63d24ce4004e40db247da515c1abf664fb72aa84e3d"
         }
       }
     },
@@ -159,7 +159,7 @@
       "id": "session:sess-20261028-152911-2afdbc",
       "type": "session",
       "label": "Micro Session sess-20261028-152911-2afdbc",
-      "content": "Micro Session sess-20261028-152911-2afdbc [completed] | Focus: Provisioning CR-TASK-EVAL-001 for mcp | Reads: 6, Writes: 13 | Entries: Compounded eval:eval-baseline-mcp: Task Evaluation eval-baseline-mcp (R=1.00, PASS)",
+      "content": "Micro Session sess-20261028-152911-2afdbc [completed] | Focus: Provisioning CR-TASK-EVAL-001 for mcp | Reads: 7, Writes: 16 | Entries: Clean Repo Lifecycle completed for mcp.; Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=1.00, PASS)",
       "importance": 0.75,
       "tags": [
         "session",
@@ -167,18 +167,18 @@
         "completed"
       ],
       "valid_from": "2026-10-28T15:29:11.296524+00:00",
-      "valid_to": "2026-10-28T15:29:11.321397+00:00",
+      "valid_to": "2026-10-29T14:18:24.501317+00:00",
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.296524+00:00",
-      "updated_at": "2026-10-29T13:58:58.646869+00:00",
+      "updated_at": "2026-10-29T14:18:25.676285+00:00",
       "metadata": {
         "session_id": "sess-20261028-152911-2afdbc",
         "prior_session_id": null,
         "parent_session_id": null,
-        "read_count": 6,
-        "write_count": 13,
+        "read_count": 7,
+        "write_count": 16,
         "status": "completed",
-        "byte_size": 1816
+        "byte_size": 2028
       }
     }
   ],
