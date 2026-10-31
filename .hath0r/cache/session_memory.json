@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "entries": {
+    "l2ws:default_agent_signature": {
+      "value": {
+        "temperature": 0.5,
+        "top_p": 0.9,
+        "guardrail_threshold": 0.85
+      },
+      "expires_at": null,
+      "updated_at": 1793464009.551716
+    }
+  }
+}
