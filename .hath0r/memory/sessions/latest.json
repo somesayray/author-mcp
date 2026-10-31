@@ -1,35 +1,35 @@
 {
   "schema_version": "hath0r.micro_session/1",
-  "session_id": "sess-20261031-161318-2ea19f",
-  "prior_session_id": "sess-20261028-152911-2afdbc",
-  "parent_session_id": "sess-20261028-152911-2afdbc",
+  "session_id": "sess-20261031-162312-8cbc00",
+  "prior_session_id": "sess-20261031-161318-2ea19f",
+  "parent_session_id": "sess-20261031-161318-2ea19f",
   "revision": 5,
-  "content_hash": "sha256:19ba9b6d5103128f54d4e33ac75960a42caac8530ecd362f763bc9d22a7a3a35",
-  "base_graph_hash": "sha256:e74aa34a28bb1c439c1fbd727407281339349ca7504f22f2977dda9f85db8f26",
+  "content_hash": "sha256:e87e8c5950bf583dcaf8a5e383f601bfa92aaaa4a39f73ea26f8b8898225c3c8",
+  "base_graph_hash": "sha256:79c6d1a6751c73c90767ed5ebb6446b7b063eca25c33490ca3f87ac7d72a78c0",
   "task_id": null,
   "role": null,
   "repo_name": "mcp",
   "status": "completed",
-  "started_at": "2026-10-31T16:13:18.757914+00:00",
-  "updated_at": "2026-10-31T16:13:20.411008+00:00",
-  "ended_at": "2026-10-31T16:13:18.801090+00:00",
+  "started_at": "2026-10-31T16:23:12.221287+00:00",
+  "updated_at": "2026-10-31T16:23:13.553721+00:00",
+  "ended_at": "2026-10-31T16:23:12.273054+00:00",
   "read_count": 2,
   "write_count": 4,
-  "last_read_at": "2026-10-31T16:13:18.772030+00:00",
-  "last_write_at": "2026-10-31T16:13:20.411008+00:00",
+  "last_read_at": "2026-10-31T16:23:12.234833+00:00",
+  "last_write_at": "2026-10-31T16:23:13.553721+00:00",
   "active_focus": "clean-repo-mcp",
-  "prior_summary": "valuation clean-repo-mcp (R=1.00, PASS); Started session focus: clean-repo-mcp; Compounded episode:clean-repo-mcp: Clean",
+  "prior_summary": "valuation clean-repo-mcp (R=0.94, PASS); Started session focus: clean-repo-mcp; Compounded episode:clean-repo-mcp: Clean",
   "recalled_nodes": [
     {
       "id": "eval:clean-repo-mcp",
       "type": "eval",
-      "label": "Task Evaluation clean-repo-mcp (R=1.00, PASS)",
-      "snippet": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=1.0000 (det=1.00, "
+      "label": "Task Evaluation clean-repo-mcp (R=0.94, PASS)",
+      "snippet": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=0.9429 (det=0.94, "
     }
   ],
   "micro_entries": [
     {
-      "timestamp": "2026-10-31T16:13:18.801090+00:00",
+      "timestamp": "2026-10-31T16:23:12.273054+00:00",
       "kind": "milestone",
       "summary": "Clean Repo Lifecycle completed for mcp.",
       "tags": [
@@ -38,7 +38,7 @@
       "node_id": null
     },
     {
-      "timestamp": "2026-10-31T16:13:20.411008+00:00",
+      "timestamp": "2026-10-31T16:23:13.553721+00:00",
       "kind": "compound",
       "summary": "Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=0.94, PASS)",
       "tags": [

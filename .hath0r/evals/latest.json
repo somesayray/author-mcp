@@ -1,15 +1,15 @@
 {
   "schema_version": "hath0r.evals.scorecard/v1",
   "rule_id": "CR-TASK-EVAL-001",
-  "eval_id": "eval-20261031-161319-d3ec6f",
+  "eval_id": "eval-20261031-162312-64455a",
   "task_id": "clean-repo-mcp",
   "issue_number": null,
   "repo_name": "mcp",
   "branch": "development",
-  "evaluated_at": "2026-10-31T16:13:19.483356+00:00",
-  "duration_ms": 899.65,
+  "evaluated_at": "2026-10-31T16:23:12.858753+00:00",
+  "duration_ms": 681.54,
   "passed_gate": true,
-  "r_task": 0.9429,
+  "r_task": 0.9449,
   "min_reward_threshold": 0.8,
   "weights": {
     "deterministic": 0.4,
@@ -19,8 +19,8 @@
   },
   "tier_scores": {
     "deterministic": 0.9393,
-    "trajectory": 0.9342,
-    "adversarial": 0.972,
+    "trajectory": 0.9343,
+    "adversarial": 0.98,
     "goal_alignment": 0.9153
   },
   "tiers": {
@@ -186,43 +186,39 @@
       }
     },
     "trajectory": {
-      "score": 0.9342,
+      "score": 0.9343,
       "passed": true,
       "tokens_used": 140,
       "max_tokens": 50000,
       "estimated_usd": 0.00042,
       "max_usd": 0.25,
-      "session_id": "sess-20261031-161318-2ea19f",
+      "session_id": "sess-20261031-162312-8cbc00",
       "session_reads": 2,
       "session_writes": 3,
       "session_bytes": 1935,
       "capsule_fill_ratio": 0.9448,
       "within_capsule_budget": true,
-      "latency_ms": 247.76,
-      "taguchi_quality_loss": 0.0009,
-      "taguchi_score": 0.9778,
-      "snr_db": 18.14
+      "latency_ms": 218.73,
+      "taguchi_quality_loss": 0.0007,
+      "taguchi_score": 0.9782,
+      "snr_db": 19.22
     },
     "adversarial": {
-      "score": 0.972,
+      "score": 0.98,
       "passed": true,
       "adversarial_flaws_count": 0,
       "adversarial_flaws": [],
       "tech_debts_count": 0,
       "auto_created_issues": [],
       "minor_findings": [],
-      "added_lines_count": 72,
+      "added_lines_count": 0,
       "change_categories": {
         "ui": [],
-        "script": [
-          "tests/test_qgate_smoke.py"
-        ],
-        "text": [
-          "thresholds.json"
-        ],
+        "script": [],
+        "text": [],
         "other": []
       },
-      "changed_files_count": 2
+      "changed_files_count": 0
     },
     "goal_alignment": {
       "score": 0.9153,
@@ -312,7 +308,7 @@
         ".hath0r/memory/hashes.json",
         ".hath0r/memory/sessions/current.json",
         ".hath0r/memory/sessions/latest.json",
-        ".hath0r/memory/sessions/sess-20261031-161318-2ea19f.json"
+        ".hath0r/memory/sessions/sess-20261031-162312-8cbc00.json"
       ],
       "UNVERIFIED_FILE_PRESENCE": []
     },
@@ -326,5 +322,5 @@
   "observability_sync": {
     "mode": "pending"
   },
-  "content_hash": "sha256:a1f67b929fbca9e1c9ec01221a8dd3ed300eece27b2d25c534970e8e14545ca1"
+  "content_hash": "sha256:783d4e8b4e6c2362b57028fb3379ec3899ae51fc9630bdf6cf8776536feceb90"
 }
