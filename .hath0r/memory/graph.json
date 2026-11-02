@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "graph_id": "canonical-memory-space",
-  "revision": 88,
-  "content_hash": "sha256:dd5fc0673ff6cb2ae40561ac05a3ddcb9092b68a016f5226e1c221fd8ef13905",
-  "updated_at": "2026-10-31T16:28:06.581860+00:00",
+  "revision": 102,
+  "content_hash": "sha256:85c942003ed311aca161fff37c8041394292121e89a74f1234b67f03641920db",
+  "updated_at": "2026-11-02T16:43:53.513037+00:00",
   "nodes": [
     {
       "id": "rule:cr-cli-entry-001",
@@ -106,7 +106,7 @@
       "updated_at": "2026-10-31T16:28:06.520047+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:e91f9eff486b1c19a394ff3dd88f3ddc0081c704f85236d6a1107b191e462ac4"
+          ".hath0r/evals/latest.json": "sha256:0110dadf8704b5a81e4595eaf5bd248e1c6b0fa6a49a9e5e529ff9a7284fc4d7"
         }
       }
     },
@@ -124,18 +124,18 @@
         "scorecard",
         "compounded"
       ],
-      "valid_from": "2026-10-29T13:58:58.307081+00:00",
+      "valid_from": "2026-11-02T16:43:49.371588+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T17:36:30.675916+00:00",
-      "updated_at": "2026-10-29T13:58:58.307081+00:00",
+      "updated_at": "2026-11-02T16:43:49.371588+00:00",
       "metadata": {}
     },
     {
       "id": "eval:eval-baseline-mcp",
       "type": "eval",
-      "label": "Task Evaluation eval-baseline-mcp (R=1.00, PASS)",
-      "content": "4-Tier Task Evaluation for eval-baseline-mcp on branch development: R_task=1.0000 (det=1.00, traj=1.00, adv=1.00, goal=1.00). Gate=PASSED.",
+      "label": "Task Evaluation eval-baseline-mcp (R=0.95, PASS)",
+      "content": "4-Tier Task Evaluation for eval-baseline-mcp on branch development: R_task=0.9467 (det=0.94, traj=0.93, adv=0.98, goal=0.93). Gate=PASSED.",
       "importance": 0.85,
       "tags": [
         "eval",
@@ -144,14 +144,14 @@
         "passed",
         "compounded"
       ],
-      "valid_from": "2026-10-29T13:58:58.634488+00:00",
+      "valid_from": "2026-11-02T16:43:53.015588+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T17:45:40.927383+00:00",
-      "updated_at": "2026-10-29T13:58:58.634488+00:00",
+      "updated_at": "2026-11-02T16:43:53.015588+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:e91f9eff486b1c19a394ff3dd88f3ddc0081c704f85236d6a1107b191e462ac4"
+          ".hath0r/evals/latest.json": "sha256:0110dadf8704b5a81e4595eaf5bd248e1c6b0fa6a49a9e5e529ff9a7284fc4d7"
         }
       }
     },
@@ -234,10 +234,52 @@
       }
     },
     {
+      "id": "fact:repo-mcp-orientation",
+      "type": "fact",
+      "label": "mcp Repository Memory Orientation",
+      "content": "mcp: My Author MCP",
+      "importance": 0.85,
+      "tags": [
+        "orientation",
+        "repository",
+        "mcp",
+        "cr-memory-compound-001",
+        "fact",
+        "compounded"
+      ],
+      "valid_from": "2026-11-02T16:43:48.797160+00:00",
+      "valid_to": null,
+      "is_current": true,
+      "created_at": "2026-11-02T16:43:48.797160+00:00",
+      "updated_at": "2026-11-02T16:43:48.797160+00:00",
+      "metadata": {}
+    },
+    {
+      "id": "insight:mcp",
+      "type": "insight",
+      "label": "Synthesized Insight on mcp",
+      "content": "Consolidated from 2 memory nodes tagged 'mcp'. Recurring themes: clean, repo, lifecycle, executed. Latest context: mcp: My Author MCP",
+      "importance": 0.95,
+      "tags": [
+        "mcp",
+        "insight",
+        "reflection",
+        "compounded"
+      ],
+      "valid_from": "2026-11-02T16:43:48.913989+00:00",
+      "is_current": true,
+      "created_at": "2026-11-02T16:43:48.913989+00:00",
+      "updated_at": "2026-11-02T16:43:48.913989+00:00",
+      "metadata": {
+        "constituent_count": 2,
+        "source_tag": "mcp"
+      }
+    },
+    {
       "id": "session:sess-20261031-162805-caaecb",
       "type": "session",
       "label": "Micro Session sess-20261031-162805-caaecb",
-      "content": "Micro Session sess-20261031-162805-caaecb [completed] | Focus: clean-repo-mcp | Reads: 2, Writes: 4 | Entries: Clean Repo Lifecycle completed for mcp.; Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=0.95, PASS)",
+      "content": "Micro Session sess-20261031-162805-caaecb [completed] | Focus: Repository orientation verified for mcp | Reads: 4, Writes: 7 | Entries: Compounded eval:eval-baseline-mcp: Task Evaluation eval-baseline-mcp (R=0.95, PASS)",
       "importance": 0.75,
       "tags": [
         "session",
@@ -248,15 +290,15 @@
       "valid_to": "2026-10-31T16:28:05.337904+00:00",
       "is_current": true,
       "created_at": "2026-10-31T16:28:05.290039+00:00",
-      "updated_at": "2026-10-31T16:28:06.533198+00:00",
+      "updated_at": "2026-11-02T16:43:53.492129+00:00",
       "metadata": {
         "session_id": "sess-20261031-162805-caaecb",
         "prior_session_id": "sess-20261031-162312-8cbc00",
         "parent_session_id": "sess-20261031-162312-8cbc00",
-        "read_count": 2,
-        "write_count": 4,
+        "read_count": 4,
+        "write_count": 7,
         "status": "completed",
-        "byte_size": 1988
+        "byte_size": 1816
       }
     }
   ],
@@ -513,6 +555,70 @@
       "relation": "DERIVES_FROM",
       "weight": 1.0,
       "valid_from": "2026-10-31T16:28:06.535366+00:00",
+      "is_current": true
+    },
+    {
+      "source": "fact:repo-mcp-orientation",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:48.797160+00:00",
+      "is_current": true
+    },
+    {
+      "source": "fact:repo-mcp-orientation",
+      "target": "rule:cr-memory-compound-001",
+      "relation": "RELATES_TO",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:48.797160+00:00",
+      "is_current": true
+    },
+    {
+      "source": "fact:repo-mcp-orientation",
+      "target": "session:sess-20261031-162805-caaecb",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:48.888285+00:00",
+      "is_current": true
+    },
+    {
+      "source": "insight:mcp",
+      "target": "episode:clean-repo-mcp",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:48.913989+00:00",
+      "is_current": true
+    },
+    {
+      "source": "insight:mcp",
+      "target": "fact:repo-mcp-orientation",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:48.913989+00:00",
+      "is_current": true
+    },
+    {
+      "source": "rule:cr-task-eval-001",
+      "target": "session:sess-20261031-162805-caaecb",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:49.444742+00:00",
+      "is_current": true
+    },
+    {
+      "source": "eval:eval-baseline-mcp",
+      "target": "session:sess-20261031-162805-caaecb",
+      "relation": "EVALUATES",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:53.015588+00:00",
+      "is_current": true
+    },
+    {
+      "source": "eval:eval-baseline-mcp",
+      "target": "session:sess-20261031-162805-caaecb",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-02T16:43:53.115012+00:00",
       "is_current": true
     }
   ]
