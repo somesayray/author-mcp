@@ -1,15 +1,15 @@
 {
   "schema_version": "hath0r.evals.scorecard/v1",
   "rule_id": "CR-TASK-EVAL-001",
-  "eval_id": "eval-20261031-162805-82d792",
+  "eval_id": "eval-20261107-182341-242738",
   "task_id": "clean-repo-mcp",
   "issue_number": null,
   "repo_name": "mcp",
   "branch": "development",
-  "evaluated_at": "2026-10-31T16:28:05.865699+00:00",
-  "duration_ms": 646.2,
+  "evaluated_at": "2026-11-07T18:23:41.989655+00:00",
+  "duration_ms": 666.66,
   "passed_gate": true,
-  "r_task": 0.9531,
+  "r_task": 0.9476,
   "min_reward_threshold": 0.8,
   "weights": {
     "deterministic": 0.4,
@@ -18,23 +18,23 @@
     "goal_alignment": 0.15
   },
   "tier_scores": {
-    "deterministic": 0.9597,
-    "trajectory": 0.9344,
+    "deterministic": 0.9413,
+    "trajectory": 0.934,
     "adversarial": 0.98,
-    "goal_alignment": 0.9153
+    "goal_alignment": 0.9287
   },
   "tiers": {
     "deterministic": {
-      "score": 0.9597,
+      "score": 0.9413,
       "passed": true,
       "passed_checks": 6,
       "total_checks": 6,
       "sub_scores": {
         "version_valid": 1.0,
         "agentgraph_valid": 1.0,
-        "memory_compounded": 0.96,
+        "memory_compounded": 0.97,
         "test_suite": 0.88,
-        "calibration_4h": 0.9895,
+        "calibration_4h": 0.82,
         "local_quality_gates": 0.974
       },
       "checks": {
@@ -52,7 +52,7 @@
         },
         "memory_compounded": {
           "passed": true,
-          "compounded_nodes_count": 4,
+          "compounded_nodes_count": 6,
           "session_read_verified": true,
           "session_write_verified": true,
           "hashes_verified": true,
@@ -66,8 +66,8 @@
         },
         "calibration_4h": {
           "passed": true,
-          "is_fresh": true,
-          "age_hours": 0.02,
+          "is_fresh": false,
+          "age_hours": 169.95,
           "max_age_hours": 4.0
         },
         "local_quality_gates": {
@@ -186,22 +186,22 @@
       }
     },
     "trajectory": {
-      "score": 0.9344,
+      "score": 0.934,
       "passed": true,
       "tokens_used": 140,
       "max_tokens": 50000,
       "estimated_usd": 0.00042,
       "max_usd": 0.25,
-      "session_id": "sess-20261031-162805-caaecb",
+      "session_id": "sess-20261107-182341-621705",
       "session_reads": 2,
       "session_writes": 3,
-      "session_bytes": 1935,
-      "capsule_fill_ratio": 0.9448,
+      "session_bytes": 1941,
+      "capsule_fill_ratio": 0.9478,
       "within_capsule_budget": true,
-      "latency_ms": 205.95,
+      "latency_ms": 201.56,
       "taguchi_quality_loss": 0.0006,
       "taguchi_score": 0.9785,
-      "snr_db": 19.75
+      "snr_db": 19.93
     },
     "adversarial": {
       "score": 0.98,
@@ -221,14 +221,14 @@
       "changed_files_count": 0
     },
     "goal_alignment": {
-      "score": 0.9153,
+      "score": 0.9287,
       "passed": true,
       "task_id": "clean-repo-mcp",
       "issue_number": null,
       "active_focus": "clean-repo-mcp",
       "goal_keywords_count": 3,
       "goal_overlap_score": 0.98,
-      "compounded_nodes_count": 4,
+      "compounded_nodes_count": 6,
       "consensus_score": 0.826
     }
   },
@@ -308,19 +308,22 @@
         ".hath0r/memory/hashes.json",
         ".hath0r/memory/sessions/current.json",
         ".hath0r/memory/sessions/latest.json",
-        ".hath0r/memory/sessions/sess-20261031-162805-caaecb.json"
+        ".hath0r/memory/sessions/sess-20261107-182341-621705.json"
       ],
-      "UNVERIFIED_FILE_PRESENCE": []
+      "UNVERIFIED_FILE_PRESENCE": [
+        ".hath0r/events.jsonl",
+        ".hath0r/finops/token_telemetry.jsonl"
+      ]
     },
     "counts": {
       "VERIFIED_EXECUTION": 1,
       "STATIC_AST_ANALYSIS": 6,
-      "UNVERIFIED_FILE_PRESENCE": 0
+      "UNVERIFIED_FILE_PRESENCE": 2
     }
   },
   "blocking_reasons": [],
   "observability_sync": {
     "mode": "pending"
   },
-  "content_hash": "sha256:b44a858e9cc22f5fdebec4cd6723a58a0567cb68c12f72272a5070341c7ba665"
+  "content_hash": "sha256:81aa30fdbe772a88e6b2540a8b7fe62de826d09de82f8efcc7bbd066b08f25ed"
 }

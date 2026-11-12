@@ -1,7 +1,7 @@
 {
   "schema_version": "hath0r.agentgraph/1",
   "graph_id": "agentgraph-mcp",
-  "timestamp": "2026-11-02T16:43:53.447448+00:00",
+  "timestamp": "2026-11-07T18:23:42.757339+00:00",
   "nodes": [
     {
       "id": "doc:agents-root",
@@ -173,10 +173,10 @@
       "plane": "memory",
       "type": "eval",
       "label": "Task Evaluation clean-repo-mcp (R=0.95, PASS)",
-      "content": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=0.9531 (det=0.96, traj=0.93, adv=0.98, goal=0.92). Gate=PASSED.",
+      "content": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=0.9476 (det=0.94, traj=0.93, adv=0.98, goal=0.93). Gate=PASSED.",
       "properties": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:e91f9eff486b1c19a394ff3dd88f3ddc0081c704f85236d6a1107b191e462ac4"
+          ".hath0r/evals/latest.json": "sha256:794f948711a09736f857c36fce30d689aec81b8f1eec953ed514b97e523f8787"
         },
         "source": "local_memory",
         "tags": [
@@ -349,15 +349,39 @@
       "plane": "memory",
       "type": "session",
       "label": "Micro Session sess-20261031-162805-caaecb",
-      "content": "Micro Session sess-20261031-162805-caaecb [completed] | Focus: Provisioning CR-TASK-EVAL-001 for mcp | Reads: 3, Writes: 7 | Entries: Compounded eval:eval-baseline-mcp: Task Evaluation eval-baseline-mcp (R=0.95, PASS)",
+      "content": "Micro Session sess-20261031-162805-caaecb [completed] | Focus: Repository orientation verified for mcp | Reads: 4, Writes: 7 | Entries: Compounded eval:eval-baseline-mcp: Task Evaluation eval-baseline-mcp (R=0.95, PASS)",
       "properties": {
         "session_id": "sess-20261031-162805-caaecb",
         "prior_session_id": "sess-20261031-162312-8cbc00",
         "parent_session_id": "sess-20261031-162312-8cbc00",
-        "read_count": 3,
+        "read_count": 4,
         "write_count": 7,
         "status": "completed",
-        "byte_size": 1891,
+        "byte_size": 1816,
+        "source": "local_memory",
+        "tags": [
+          "session",
+          "micro-session",
+          "completed"
+        ],
+        "importance": 0.75
+      },
+      "is_current": true
+    },
+    {
+      "id": "memory:session:sess-20261107-182341-621705",
+      "plane": "memory",
+      "type": "session",
+      "label": "Micro Session sess-20261107-182341-621705",
+      "content": "Micro Session sess-20261107-182341-621705 [completed] | Focus: clean-repo-mcp | Reads: 2, Writes: 4 | Entries: Clean Repo Lifecycle completed for mcp.; Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=0.95, PASS)",
+      "properties": {
+        "session_id": "sess-20261107-182341-621705",
+        "prior_session_id": "sess-20261031-162805-caaecb",
+        "parent_session_id": "sess-20261031-162805-caaecb",
+        "read_count": 2,
+        "write_count": 4,
+        "status": "completed",
+        "byte_size": 1994,
         "source": "local_memory",
         "tags": [
           "session",
@@ -2924,6 +2948,36 @@
       "is_current": true
     },
     {
+      "source": "memory:session:sess-20261031-162805-caaecb",
+      "target": "memory:session:sess-20261107-182341-621705",
+      "relation": "PRECEDES",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261107-182341-621705",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "is_current": true
+    },
+    {
+      "source": "memory:episode:clean-repo-mcp",
+      "target": "memory:session:sess-20261107-182341-621705",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "memory:session:sess-20261107-182341-621705",
+      "relation": "EVALUATES",
+      "is_current": true
+    },
+    {
+      "source": "memory:eval:clean-repo-mcp",
+      "target": "memory:session:sess-20261107-182341-621705",
+      "relation": "DERIVES_FROM",
+      "is_current": true
+    },
+    {
       "source": "rule:cr-cli-entry-001",
       "target": "role:developer",
       "relation": "GOVERNS",
@@ -3021,6 +3075,12 @@
     },
     {
       "source": "memory:session:sess-20261031-162805-caaecb",
+      "target": "role:developer",
+      "relation": "INFORMS",
+      "is_current": true
+    },
+    {
+      "source": "memory:session:sess-20261107-182341-621705",
       "target": "role:developer",
       "relation": "INFORMS",
       "is_current": true

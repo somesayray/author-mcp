@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
   "graph_id": "canonical-memory-space",
-  "revision": 102,
-  "content_hash": "sha256:85c942003ed311aca161fff37c8041394292121e89a74f1234b67f03641920db",
-  "updated_at": "2026-11-02T16:43:53.513037+00:00",
+  "revision": 112,
+  "content_hash": "sha256:d97c67b3e91ea0582931a56ace5c4d2aa899ce29e027dd78a92c4d274863bd52",
+  "updated_at": "2026-11-07T18:23:42.763686+00:00",
   "nodes": [
     {
       "id": "rule:cr-cli-entry-001",
@@ -79,18 +79,18 @@
         "episode",
         "compounded"
       ],
-      "valid_from": "2026-10-31T16:28:05.312227+00:00",
+      "valid_from": "2026-11-07T18:23:41.227030+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.302371+00:00",
-      "updated_at": "2026-10-31T16:28:05.312227+00:00",
+      "updated_at": "2026-11-07T18:23:41.227030+00:00",
       "metadata": {}
     },
     {
       "id": "eval:clean-repo-mcp",
       "type": "eval",
       "label": "Task Evaluation clean-repo-mcp (R=0.95, PASS)",
-      "content": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=0.9531 (det=0.96, traj=0.93, adv=0.98, goal=0.92). Gate=PASSED.",
+      "content": "4-Tier Task Evaluation for clean-repo-mcp on branch development: R_task=0.9476 (det=0.94, traj=0.93, adv=0.98, goal=0.93). Gate=PASSED.",
       "importance": 0.85,
       "tags": [
         "eval",
@@ -99,14 +99,14 @@
         "passed",
         "compounded"
       ],
-      "valid_from": "2026-10-31T16:28:06.520047+00:00",
+      "valid_from": "2026-11-07T18:23:42.672761+00:00",
       "valid_to": null,
       "is_current": true,
       "created_at": "2026-10-28T15:29:11.904772+00:00",
-      "updated_at": "2026-10-31T16:28:06.520047+00:00",
+      "updated_at": "2026-11-07T18:23:42.672761+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:0110dadf8704b5a81e4595eaf5bd248e1c6b0fa6a49a9e5e529ff9a7284fc4d7"
+          ".hath0r/evals/latest.json": "sha256:794f948711a09736f857c36fce30d689aec81b8f1eec953ed514b97e523f8787"
         }
       }
     },
@@ -151,7 +151,7 @@
       "updated_at": "2026-11-02T16:43:53.015588+00:00",
       "metadata": {
         "source_files": {
-          ".hath0r/evals/latest.json": "sha256:0110dadf8704b5a81e4595eaf5bd248e1c6b0fa6a49a9e5e529ff9a7284fc4d7"
+          ".hath0r/evals/latest.json": "sha256:794f948711a09736f857c36fce30d689aec81b8f1eec953ed514b97e523f8787"
         }
       }
     },
@@ -299,6 +299,32 @@
         "write_count": 7,
         "status": "completed",
         "byte_size": 1816
+      }
+    },
+    {
+      "id": "session:sess-20261107-182341-621705",
+      "type": "session",
+      "label": "Micro Session sess-20261107-182341-621705",
+      "content": "Micro Session sess-20261107-182341-621705 [completed] | Focus: clean-repo-mcp | Reads: 2, Writes: 4 | Entries: Clean Repo Lifecycle completed for mcp.; Compounded eval:clean-repo-mcp: Task Evaluation clean-repo-mcp (R=0.95, PASS)",
+      "importance": 0.75,
+      "tags": [
+        "session",
+        "micro-session",
+        "completed"
+      ],
+      "valid_from": "2026-11-07T18:23:41.195010+00:00",
+      "valid_to": "2026-11-07T18:23:41.253712+00:00",
+      "is_current": true,
+      "created_at": "2026-11-07T18:23:41.195010+00:00",
+      "updated_at": "2026-11-07T18:23:42.691374+00:00",
+      "metadata": {
+        "session_id": "sess-20261107-182341-621705",
+        "prior_session_id": "sess-20261031-162805-caaecb",
+        "parent_session_id": "sess-20261031-162805-caaecb",
+        "read_count": 2,
+        "write_count": 4,
+        "status": "completed",
+        "byte_size": 1994
       }
     }
   ],
@@ -619,6 +645,46 @@
       "relation": "DERIVES_FROM",
       "weight": 1.0,
       "valid_from": "2026-11-02T16:43:53.115012+00:00",
+      "is_current": true
+    },
+    {
+      "source": "session:sess-20261031-162805-caaecb",
+      "target": "session:sess-20261107-182341-621705",
+      "relation": "PRECEDES",
+      "weight": 1.0,
+      "valid_from": "2026-11-07T18:23:41.204877+00:00",
+      "is_current": true
+    },
+    {
+      "source": "session:sess-20261107-182341-621705",
+      "target": "concept:tri-graph",
+      "relation": "RELATES_TO",
+      "weight": 0.8,
+      "valid_from": "2026-11-07T18:23:41.204877+00:00",
+      "is_current": true
+    },
+    {
+      "source": "episode:clean-repo-mcp",
+      "target": "session:sess-20261107-182341-621705",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-07T18:23:41.243529+00:00",
+      "is_current": true
+    },
+    {
+      "source": "eval:clean-repo-mcp",
+      "target": "session:sess-20261107-182341-621705",
+      "relation": "EVALUATES",
+      "weight": 1.0,
+      "valid_from": "2026-11-07T18:23:42.672761+00:00",
+      "is_current": true
+    },
+    {
+      "source": "eval:clean-repo-mcp",
+      "target": "session:sess-20261107-182341-621705",
+      "relation": "DERIVES_FROM",
+      "weight": 1.0,
+      "valid_from": "2026-11-07T18:23:42.694004+00:00",
       "is_current": true
     }
   ]
